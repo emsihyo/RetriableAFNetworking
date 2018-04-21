@@ -233,6 +233,9 @@
 		0A669B9C208B741100670341 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A669B9D208B741100670341 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0A669B9F208B741100670341 /* RetriableAFNetworking_macOS_Example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RetriableAFNetworking_macOS_Example.entitlements; sourceTree = "<group>"; };
+		0AFEF850208B8FBC00D6FEC4 /* RetriableAFNetworking.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = RetriableAFNetworking.podspec; sourceTree = SOURCE_ROOT; };
+		0AFEF851208B8FBC00D6FEC4 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
+		0AFEF852208B8FBC00D6FEC4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		10A34534D305E02E179EA5D4 /* Pods-RetriableAFNetworking watchOS Example Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableAFNetworking watchOS Example Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableAFNetworking watchOS Example Extension/Pods-RetriableAFNetworking watchOS Example Extension.debug.xcconfig"; sourceTree = "<group>"; };
 		1A3028F8B4815B9BAAF3EAFB /* Pods-RetriableAFNetworking watchOS Example Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableAFNetworking watchOS Example Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableAFNetworking watchOS Example Extension/Pods-RetriableAFNetworking watchOS Example Extension.release.xcconfig"; sourceTree = "<group>"; };
 		1E099437A0A4C81B03AF081C /* Pods-RetriableAFNetworking macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableAFNetworking macOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableAFNetworking macOS/Pods-RetriableAFNetworking macOS.release.xcconfig"; sourceTree = "<group>"; };
@@ -378,6 +381,9 @@
 				0A5CF5EA2088DD3800106219 /* RetriableAFNetworking.h */,
 				0A5CF6142088DDF900106219 /* RetriableAFNetworkingResponse.h */,
 				0A5CF6152088DDF900106219 /* RetriableAFNetworkingResponse.m */,
+				0AFEF851208B8FBC00D6FEC4 /* LICENSE */,
+				0AFEF852208B8FBC00D6FEC4 /* README.md */,
+				0AFEF850208B8FBC00D6FEC4 /* RetriableAFNetworking.podspec */,
 			);
 			path = RetriableAFNetworking;
 			sourceTree = "<group>";
