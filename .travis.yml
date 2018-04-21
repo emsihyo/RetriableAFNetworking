@@ -20,7 +20,7 @@ before_install:
 
 script:
     - set -o pipefail
-    - xcodebuild clean build -workspace RetriableSDWebImage.xcworkspace -scheme 'RetriableSDWebImage iOS' -sdk iphonesimulator PLATFORM_NAME=iphonesimulator -configuration Debug | xcpretty
-    - xcodebuild clean build -workspace RetriableSDWebImage.xcworkspace -scheme 'RetriableSDWebImage watchOS' -sdk watchsimulator -configuration Debug | xcpretty
-    - xcodebuild clean build -workspace RetriableSDWebImage.xcworkspace -scheme 'RetriableSDWebImage tvOS'  -sdk appletvsimulator -configuration Debug | xcpretty
-    - xcodebuild clean build -workspace RetriableSDWebImage.xcworkspace -scheme 'RetriableSDWebImage macOS' -sdk macosx -configuration Debug | xcpretty
+    - xcodebuild clean build -workspace RetriableAFNetworking.xcworkspace -scheme 'RetriableAFNetworking iOS' -sdk iphonesimulator PLATFORM_NAME=iphonesimulator -configuration Debug | xcpretty
+    - xcodebuild clean build -workspace RetriableAFNetworking.xcworkspace -scheme 'RetriableAFNetworking watchOS' -sdk watchsimulator -configuration Debug | xcpretty
+    - xcodebuild clean build -workspace RetriableAFNetworking.xcworkspace -scheme 'RetriableAFNetworking tvOS'  -sdk appletvsimulator -configuration Debug | xcpretty
+    - xcodebuild clean build -workspace RetriableAFNetworking.xcworkspace -scheme 'RetriableAFNetworking macOS' -sdk macosx -configuration Debug | xcpretty
