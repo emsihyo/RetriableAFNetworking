@@ -6,10 +6,7 @@
 //  Copyright © 2018年 emsihyo. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
 #import <RetriableAFNetworking/AFHTTPSessionManager+Retriable.h>
-#import <RetriableAFNetworking/RetriableAFNetworkingRequest.h>
-#import <RetriableAFNetworking/RetriableAFNetworkingResponse.h>
 //! Project version number for RetriableAFNetworking.
 FOUNDATION_EXPORT double RetriableAFNetworkingVersionNumber;
 

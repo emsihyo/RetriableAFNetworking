@@ -1,0 +1,6 @@
+framework module Pods_RetriableAFNetworking_watchOS {
+  umbrella header "Pods-RetriableAFNetworking watchOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
