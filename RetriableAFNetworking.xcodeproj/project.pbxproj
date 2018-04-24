@@ -378,12 +378,12 @@
 				0A5CF6172088DDFA00106219 /* AFHTTPSessionManager+Retriable.h */,
 				0A5CF6132088DDF900106219 /* AFHTTPSessionManager+Retriable.m */,
 				0A5CF5EB2088DD3800106219 /* Info.plist */,
-				0A5CF5EA2088DD3800106219 /* RetriableAFNetworking.h */,
-				0A5CF6142088DDF900106219 /* RetriableAFNetworkingResponse.h */,
-				0A5CF6152088DDF900106219 /* RetriableAFNetworkingResponse.m */,
 				0AFEF851208B8FBC00D6FEC4 /* LICENSE */,
 				0AFEF852208B8FBC00D6FEC4 /* README.md */,
+				0A5CF5EA2088DD3800106219 /* RetriableAFNetworking.h */,
 				0AFEF850208B8FBC00D6FEC4 /* RetriableAFNetworking.podspec */,
+				0A5CF6142088DDF900106219 /* RetriableAFNetworkingResponse.h */,
+				0A5CF6152088DDF900106219 /* RetriableAFNetworkingResponse.m */,
 			);
 			path = RetriableAFNetworking;
 			sourceTree = "<group>";
@@ -1433,7 +1433,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.RetriableAFNetworking-watchOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emsihyo.RetriableAFNetworking;
 				PRODUCT_NAME = RetriableAFNetworking;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
@@ -1462,7 +1462,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.RetriableAFNetworking-watchOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emsihyo.RetriableAFNetworking;
 				PRODUCT_NAME = RetriableAFNetworking;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
@@ -1490,7 +1490,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.RetriableAFNetworking-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emsihyo.RetriableAFNetworking;
 				PRODUCT_NAME = RetriableAFNetworking;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
@@ -1518,7 +1518,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.RetriableAFNetworking-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emsihyo.RetriableAFNetworking;
 				PRODUCT_NAME = RetriableAFNetworking;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
@@ -1549,7 +1549,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.RetriableAFNetworking-macOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emsihyo.RetriableAFNetworking;
 				PRODUCT_NAME = RetriableAFNetworking;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
@@ -1578,7 +1578,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.RetriableAFNetworking-macOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emsihyo.RetriableAFNetworking;
 				PRODUCT_NAME = RetriableAFNetworking;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;

@@ -1,10 +1,10 @@
+# RetriableAFNetworking
+
 [![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://raw.githubusercontent.com/emsihyo/RetriableAFNetworking/master/LICENSE)
 [![Build Status](http://img.shields.io/travis/emsihyo/RetriableAFNetworking/master.svg?style=flat)](https://travis-ci.org/emsihyo/RetriableAFNetworking)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/emsihyo/RetriableAFNetworking)
 [![Pod Version](http://img.shields.io/cocoapods/v/RetriableAFNetworking.svg?style=flat)](http://cocoapods.org/pods/RetriableAFNetworking)
 [![Pod Platform](http://img.shields.io/cocoapods/p/RetriableAFNetworking.svg?style=flat)](http://cocoapods.org/pods/RetriableAFNetworking)
-
-# RetriableAFNetworking
 
 Retriable AFNetworking
 
