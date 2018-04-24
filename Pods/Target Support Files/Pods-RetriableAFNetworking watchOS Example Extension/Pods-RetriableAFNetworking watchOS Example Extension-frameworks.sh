@@ -144,10 +144,12 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/AFNetworking.root-NSURLSession-Security-Serialization/AFNetworking.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/JRSwizzle-watchOS/JRSwizzle.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Retriable-watchOS/Retriable.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/AFNetworking.root-NSURLSession-Security-Serialization/AFNetworking.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/JRSwizzle-watchOS/JRSwizzle.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Retriable-watchOS/Retriable.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then

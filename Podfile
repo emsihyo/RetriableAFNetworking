@@ -4,6 +4,7 @@ target 'RetriableAFNetworking iOS' do
     use_frameworks!
     pod 'Retriable'
     pod 'AFNetworking'
+    pod 'JRSwizzle'
 end
 target 'RetriableAFNetworking iOS Example' do
     platform :ios,'8.0'
@@ -11,6 +12,7 @@ target 'RetriableAFNetworking iOS Example' do
     use_frameworks!
     pod 'Retriable'
     pod 'AFNetworking'
+    pod 'JRSwizzle'
 end
 target 'RetriableAFNetworking watchOS' do
     platform :watchos,'2.0'
@@ -18,6 +20,7 @@ target 'RetriableAFNetworking watchOS' do
     use_frameworks!
     pod 'Retriable'
     pod 'AFNetworking'
+    pod 'JRSwizzle'
 end
 target 'RetriableAFNetworking watchOS Example Extension' do
     platform :watchos,'2.0'
@@ -25,6 +28,7 @@ target 'RetriableAFNetworking watchOS Example Extension' do
     use_frameworks!
     pod 'Retriable'
     pod 'AFNetworking'
+    pod 'JRSwizzle'
 end
 target 'RetriableAFNetworking tvOS' do
     platform :tvos,'9.0'
@@ -32,6 +36,7 @@ target 'RetriableAFNetworking tvOS' do
     use_frameworks!
     pod 'Retriable'
     pod 'AFNetworking'
+    pod 'JRSwizzle'
 end
 target 'RetriableAFNetworking tvOS Example' do
     platform :tvos,'9.0'
@@ -39,6 +44,7 @@ target 'RetriableAFNetworking tvOS Example' do
     use_frameworks!
     pod 'Retriable'
     pod 'AFNetworking'
+    pod 'JRSwizzle'
 end
 target 'RetriableAFNetworking macOS' do
     platform :macos,'10.9'
@@ -46,6 +52,7 @@ target 'RetriableAFNetworking macOS' do
     use_frameworks!
     pod 'Retriable'
     pod 'AFNetworking'
+    pod 'JRSwizzle'
 end
 target 'RetriableAFNetworking macOS Example' do
     platform :macos,'10.9'
@@ -53,5 +60,6 @@ target 'RetriableAFNetworking macOS Example' do
     use_frameworks!
     pod 'Retriable'
     pod 'AFNetworking'
+    pod 'JRSwizzle'
 end
 

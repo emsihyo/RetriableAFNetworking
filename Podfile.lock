@@ -14,21 +14,25 @@ PODS:
   - AFNetworking/Serialization (3.2.0)
   - AFNetworking/UIKit (3.2.0):
     - AFNetworking/NSURLSession
-  - Retriable (1.0.0)
+  - JRSwizzle (1.0)
+  - Retriable (1.0.1)
 
 DEPENDENCIES:
   - AFNetworking
+  - JRSwizzle
   - Retriable
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - AFNetworking
+    - JRSwizzle
     - Retriable
 
 SPEC CHECKSUMS:
   AFNetworking: 8ac6017b94ea105479f7776e5288e48ae9c59bb4
-  Retriable: 175cddd65116f167d89d838d9a09174be2fa0a65
+  JRSwizzle: dd5ead5d913a0f29e7f558200165849f006bb1e3
+  Retriable: 14d00a43d7d1998cb6f0b580449515178dd6ec3a
 
-PODFILE CHECKSUM: bba34622366e2411c9d1bbd953d08ab4722f46e4
+PODFILE CHECKSUM: 099ab5023cf6e0fecb7c9654b5a042136e02bc91
 
 COCOAPODS: 1.5.0

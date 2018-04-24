@@ -7,6 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04CFA13480B65B06FD4C1DCB /* Pods_RetriableAFNetworking_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F6C7AF46D0264B8F067AEE /* Pods_RetriableAFNetworking_iOS.framework */; };
+		0A4F4FFC208F24E9004A6456 /* AFJSONRequestSerializer+FreeHTTPHeaders.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4F4FF4208F24E8004A6456 /* AFJSONRequestSerializer+FreeHTTPHeaders.m */; };
+		0A4F4FFD208F24E9004A6456 /* AFJSONRequestSerializer+FreeHTTPHeaders.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4F4FF4208F24E8004A6456 /* AFJSONRequestSerializer+FreeHTTPHeaders.m */; };
+		0A4F4FFE208F24E9004A6456 /* AFJSONRequestSerializer+FreeHTTPHeaders.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4F4FF4208F24E8004A6456 /* AFJSONRequestSerializer+FreeHTTPHeaders.m */; };
+		0A4F4FFF208F24E9004A6456 /* AFJSONRequestSerializer+FreeHTTPHeaders.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4F4FF4208F24E8004A6456 /* AFJSONRequestSerializer+FreeHTTPHeaders.m */; };
+		0A4F5000208F24E9004A6456 /* AFHTTPRequestSerializer+FreeHTTPHeaders.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4F4FF5208F24E8004A6456 /* AFHTTPRequestSerializer+FreeHTTPHeaders.m */; };
+		0A4F5001208F24E9004A6456 /* AFHTTPRequestSerializer+FreeHTTPHeaders.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4F4FF5208F24E8004A6456 /* AFHTTPRequestSerializer+FreeHTTPHeaders.m */; };
+		0A4F5002208F24E9004A6456 /* AFHTTPRequestSerializer+FreeHTTPHeaders.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4F4FF5208F24E8004A6456 /* AFHTTPRequestSerializer+FreeHTTPHeaders.m */; };
+		0A4F5003208F24E9004A6456 /* AFHTTPRequestSerializer+FreeHTTPHeaders.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4F4FF5208F24E8004A6456 /* AFHTTPRequestSerializer+FreeHTTPHeaders.m */; };
+		0A4F5004208F24E9004A6456 /* AFPropertyListRequestSerializer+FreeHTTPHeaders.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A4F4FF6208F24E9004A6456 /* AFPropertyListRequestSerializer+FreeHTTPHeaders.h */; };
+		0A4F5005208F24E9004A6456 /* AFPropertyListRequestSerializer+FreeHTTPHeaders.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A4F4FF6208F24E9004A6456 /* AFPropertyListRequestSerializer+FreeHTTPHeaders.h */; };
+		0A4F5006208F24E9004A6456 /* AFPropertyListRequestSerializer+FreeHTTPHeaders.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A4F4FF6208F24E9004A6456 /* AFPropertyListRequestSerializer+FreeHTTPHeaders.h */; };
+		0A4F5007208F24E9004A6456 /* AFPropertyListRequestSerializer+FreeHTTPHeaders.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A4F4FF6208F24E9004A6456 /* AFPropertyListRequestSerializer+FreeHTTPHeaders.h */; };
+		0A4F5008208F24E9004A6456 /* AFHTTPRequestSerializer+FreeHTTPHeaders.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A4F4FF7208F24E9004A6456 /* AFHTTPRequestSerializer+FreeHTTPHeaders.h */; };
+		0A4F5009208F24E9004A6456 /* AFHTTPRequestSerializer+FreeHTTPHeaders.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A4F4FF7208F24E9004A6456 /* AFHTTPRequestSerializer+FreeHTTPHeaders.h */; };
+		0A4F500A208F24E9004A6456 /* AFHTTPRequestSerializer+FreeHTTPHeaders.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A4F4FF7208F24E9004A6456 /* AFHTTPRequestSerializer+FreeHTTPHeaders.h */; };
+		0A4F500B208F24E9004A6456 /* AFHTTPRequestSerializer+FreeHTTPHeaders.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A4F4FF7208F24E9004A6456 /* AFHTTPRequestSerializer+FreeHTTPHeaders.h */; };
+		0A4F500C208F24E9004A6456 /* AFHTTPSessionManager+FreeHTTPHeaders.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A4F4FF8208F24E9004A6456 /* AFHTTPSessionManager+FreeHTTPHeaders.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A4F500D208F24E9004A6456 /* AFHTTPSessionManager+FreeHTTPHeaders.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A4F4FF8208F24E9004A6456 /* AFHTTPSessionManager+FreeHTTPHeaders.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A4F500E208F24E9004A6456 /* AFHTTPSessionManager+FreeHTTPHeaders.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A4F4FF8208F24E9004A6456 /* AFHTTPSessionManager+FreeHTTPHeaders.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A4F500F208F24E9004A6456 /* AFHTTPSessionManager+FreeHTTPHeaders.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A4F4FF8208F24E9004A6456 /* AFHTTPSessionManager+FreeHTTPHeaders.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A4F5010208F24E9004A6456 /* AFPropertyListRequestSerializer+FreeHTTPHeaders.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4F4FF9208F24E9004A6456 /* AFPropertyListRequestSerializer+FreeHTTPHeaders.m */; };
+		0A4F5011208F24E9004A6456 /* AFPropertyListRequestSerializer+FreeHTTPHeaders.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4F4FF9208F24E9004A6456 /* AFPropertyListRequestSerializer+FreeHTTPHeaders.m */; };
+		0A4F5012208F24E9004A6456 /* AFPropertyListRequestSerializer+FreeHTTPHeaders.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4F4FF9208F24E9004A6456 /* AFPropertyListRequestSerializer+FreeHTTPHeaders.m */; };
+		0A4F5013208F24E9004A6456 /* AFPropertyListRequestSerializer+FreeHTTPHeaders.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4F4FF9208F24E9004A6456 /* AFPropertyListRequestSerializer+FreeHTTPHeaders.m */; };
+		0A4F5014208F24E9004A6456 /* AFJSONRequestSerializer+FreeHTTPHeaders.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A4F4FFA208F24E9004A6456 /* AFJSONRequestSerializer+FreeHTTPHeaders.h */; };
+		0A4F5015208F24E9004A6456 /* AFJSONRequestSerializer+FreeHTTPHeaders.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A4F4FFA208F24E9004A6456 /* AFJSONRequestSerializer+FreeHTTPHeaders.h */; };
+		0A4F5016208F24E9004A6456 /* AFJSONRequestSerializer+FreeHTTPHeaders.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A4F4FFA208F24E9004A6456 /* AFJSONRequestSerializer+FreeHTTPHeaders.h */; };
+		0A4F5017208F24E9004A6456 /* AFJSONRequestSerializer+FreeHTTPHeaders.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A4F4FFA208F24E9004A6456 /* AFJSONRequestSerializer+FreeHTTPHeaders.h */; };
+		0A4F5018208F24E9004A6456 /* AFHTTPSessionManager+FreeHTTPHeaders.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4F4FFB208F24E9004A6456 /* AFHTTPSessionManager+FreeHTTPHeaders.m */; };
+		0A4F5019208F24E9004A6456 /* AFHTTPSessionManager+FreeHTTPHeaders.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4F4FFB208F24E9004A6456 /* AFHTTPSessionManager+FreeHTTPHeaders.m */; };
+		0A4F501A208F24E9004A6456 /* AFHTTPSessionManager+FreeHTTPHeaders.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4F4FFB208F24E9004A6456 /* AFHTTPSessionManager+FreeHTTPHeaders.m */; };
+		0A4F501B208F24E9004A6456 /* AFHTTPSessionManager+FreeHTTPHeaders.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4F4FFB208F24E9004A6456 /* AFHTTPSessionManager+FreeHTTPHeaders.m */; };
 		0A5CF5EC2088DD3800106219 /* RetriableAFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A5CF5EA2088DD3800106219 /* RetriableAFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0A5CF61B2088DDFA00106219 /* AFHTTPSessionManager+Retriable.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5CF6132088DDF900106219 /* AFHTTPSessionManager+Retriable.m */; };
 		0A5CF61C2088DDFA00106219 /* RetriableAFNetworkingResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A5CF6142088DDF900106219 /* RetriableAFNetworkingResponse.h */; };
@@ -58,14 +91,13 @@
 		0A669BAE208B746700670341 /* RetriableAFNetworking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0A669B0E208B724300670341 /* RetriableAFNetworking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0A669BB2208B747000670341 /* RetriableAFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A669B1B208B725F00670341 /* RetriableAFNetworking.framework */; };
 		0A669BB3208B747000670341 /* RetriableAFNetworking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0A669B1B208B725F00670341 /* RetriableAFNetworking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		3244168C7E35A44EBD4B7457 /* Pods_RetriableAFNetworking_iOS_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 917515669B12FEB8D73D068F /* Pods_RetriableAFNetworking_iOS_Example.framework */; };
-		4D1CCF8F17B6422B32CD353E /* Pods_RetriableAFNetworking_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CFBBBD9E599509F1CD4909E /* Pods_RetriableAFNetworking_iOS.framework */; };
-		5E9AD55277DE76E8CE25EBE4 /* Pods_RetriableAFNetworking_macOS_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBFED6EFE55CAEF8C5796641 /* Pods_RetriableAFNetworking_macOS_Example.framework */; };
-		AB9C123F5DA66D8D7378331E /* Pods_RetriableAFNetworking_tvOS_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 748757D6EE3628134D62ED41 /* Pods_RetriableAFNetworking_tvOS_Example.framework */; };
-		B3FAC7981E0691C91673D8C4 /* Pods_RetriableAFNetworking_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3CEAAE528EA142D6D83B9C9 /* Pods_RetriableAFNetworking_macOS.framework */; };
-		B844B01E3A6F3B490ADAC442 /* Pods_RetriableAFNetworking_watchOS_Example_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50438C81C0A54DB5DAF2B258 /* Pods_RetriableAFNetworking_watchOS_Example_Extension.framework */; };
-		D2E6293734ACAACBA022CB82 /* Pods_RetriableAFNetworking_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8997C6F1E2FAD6371CA7AD28 /* Pods_RetriableAFNetworking_tvOS.framework */; };
-		E88F4F9058940297F73A02D1 /* Pods_RetriableAFNetworking_watchOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A81D4C1EABE16E346926FB /* Pods_RetriableAFNetworking_watchOS.framework */; };
+		5A18C1FFFC8BC1D658AA09EB /* Pods_RetriableAFNetworking_iOS_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 390AE5C3C885D47BEAB80953 /* Pods_RetriableAFNetworking_iOS_Example.framework */; };
+		65B55CC6A85B6AFC6C43D228 /* Pods_RetriableAFNetworking_macOS_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA565363ECA54E28988DC101 /* Pods_RetriableAFNetworking_macOS_Example.framework */; };
+		6E0804BCDBFEC22FFA012574 /* Pods_RetriableAFNetworking_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08EF2577E69E0F3BC86636E0 /* Pods_RetriableAFNetworking_tvOS.framework */; };
+		8ADE85D2AF765E604AA5F88D /* Pods_RetriableAFNetworking_watchOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5673A36326BD910C13D57028 /* Pods_RetriableAFNetworking_watchOS.framework */; };
+		AAA8AFF652174678CE460769 /* Pods_RetriableAFNetworking_tvOS_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B177094EAB93841701F3469 /* Pods_RetriableAFNetworking_tvOS_Example.framework */; };
+		C8D226DC7578F2F4756EA344 /* Pods_RetriableAFNetworking_watchOS_Example_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA64BA6EAD9BAEC0AB26A803 /* Pods_RetriableAFNetworking_watchOS_Example_Extension.framework */; };
+		DDD83791DE4B5C1E0B76532F /* Pods_RetriableAFNetworking_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6725BAC6A246D46D9BE0E565 /* Pods_RetriableAFNetworking_macOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -183,6 +215,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		00E67FDBFABF1B4BBF0CAB7C /* Pods-RetriableAFNetworking iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableAFNetworking iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableAFNetworking iOS/Pods-RetriableAFNetworking iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		02FC1EF3DE767958628FA9F8 /* Pods-RetriableAFNetworking macOS Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableAFNetworking macOS Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableAFNetworking macOS Example/Pods-RetriableAFNetworking macOS Example.debug.xcconfig"; sourceTree = "<group>"; };
+		06D7DB531FF762CFFB3C150C /* Pods-RetriableAFNetworking macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableAFNetworking macOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableAFNetworking macOS/Pods-RetriableAFNetworking macOS.debug.xcconfig"; sourceTree = "<group>"; };
+		08EF2577E69E0F3BC86636E0 /* Pods_RetriableAFNetworking_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetriableAFNetworking_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A4F4FF4208F24E8004A6456 /* AFJSONRequestSerializer+FreeHTTPHeaders.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFJSONRequestSerializer+FreeHTTPHeaders.m"; sourceTree = "<group>"; };
+		0A4F4FF5208F24E8004A6456 /* AFHTTPRequestSerializer+FreeHTTPHeaders.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFHTTPRequestSerializer+FreeHTTPHeaders.m"; sourceTree = "<group>"; };
+		0A4F4FF6208F24E9004A6456 /* AFPropertyListRequestSerializer+FreeHTTPHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFPropertyListRequestSerializer+FreeHTTPHeaders.h"; sourceTree = "<group>"; };
+		0A4F4FF7208F24E9004A6456 /* AFHTTPRequestSerializer+FreeHTTPHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFHTTPRequestSerializer+FreeHTTPHeaders.h"; sourceTree = "<group>"; };
+		0A4F4FF8208F24E9004A6456 /* AFHTTPSessionManager+FreeHTTPHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFHTTPSessionManager+FreeHTTPHeaders.h"; sourceTree = "<group>"; };
+		0A4F4FF9208F24E9004A6456 /* AFPropertyListRequestSerializer+FreeHTTPHeaders.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFPropertyListRequestSerializer+FreeHTTPHeaders.m"; sourceTree = "<group>"; };
+		0A4F4FFA208F24E9004A6456 /* AFJSONRequestSerializer+FreeHTTPHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFJSONRequestSerializer+FreeHTTPHeaders.h"; sourceTree = "<group>"; };
+		0A4F4FFB208F24E9004A6456 /* AFHTTPSessionManager+FreeHTTPHeaders.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFHTTPSessionManager+FreeHTTPHeaders.m"; sourceTree = "<group>"; };
+		0A4F501C208F27E5004A6456 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = SOURCE_ROOT; };
 		0A5CF5E72088DD3800106219 /* RetriableAFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RetriableAFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A5CF5EA2088DD3800106219 /* RetriableAFNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RetriableAFNetworking.h; sourceTree = "<group>"; };
 		0A5CF5EB2088DD3800106219 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -236,30 +281,26 @@
 		0AFEF850208B8FBC00D6FEC4 /* RetriableAFNetworking.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = RetriableAFNetworking.podspec; sourceTree = SOURCE_ROOT; };
 		0AFEF851208B8FBC00D6FEC4 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
 		0AFEF852208B8FBC00D6FEC4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
-		10A34534D305E02E179EA5D4 /* Pods-RetriableAFNetworking watchOS Example Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableAFNetworking watchOS Example Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableAFNetworking watchOS Example Extension/Pods-RetriableAFNetworking watchOS Example Extension.debug.xcconfig"; sourceTree = "<group>"; };
-		1A3028F8B4815B9BAAF3EAFB /* Pods-RetriableAFNetworking watchOS Example Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableAFNetworking watchOS Example Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableAFNetworking watchOS Example Extension/Pods-RetriableAFNetworking watchOS Example Extension.release.xcconfig"; sourceTree = "<group>"; };
-		1E099437A0A4C81B03AF081C /* Pods-RetriableAFNetworking macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableAFNetworking macOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableAFNetworking macOS/Pods-RetriableAFNetworking macOS.release.xcconfig"; sourceTree = "<group>"; };
-		2F42710B363AA478DC74FE50 /* Pods-RetriableAFNetworking macOS Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableAFNetworking macOS Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableAFNetworking macOS Example/Pods-RetriableAFNetworking macOS Example.release.xcconfig"; sourceTree = "<group>"; };
-		3D05BC4113A26D8FB6EBC00B /* Pods-RetriableAFNetworking iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableAFNetworking iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableAFNetworking iOS/Pods-RetriableAFNetworking iOS.debug.xcconfig"; sourceTree = "<group>"; };
-		412677A72131B1461BC1482A /* Pods-RetriableAFNetworking tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableAFNetworking tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableAFNetworking tvOS/Pods-RetriableAFNetworking tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		481D9899A40127C7AF0ED428 /* Pods-RetriableAFNetworking watchOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableAFNetworking watchOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableAFNetworking watchOS/Pods-RetriableAFNetworking watchOS.release.xcconfig"; sourceTree = "<group>"; };
-		50438C81C0A54DB5DAF2B258 /* Pods_RetriableAFNetworking_watchOS_Example_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetriableAFNetworking_watchOS_Example_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		57A81D4C1EABE16E346926FB /* Pods_RetriableAFNetworking_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetriableAFNetworking_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		60D2C071652E58B9157E5107 /* Pods-RetriableAFNetworking tvOS Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableAFNetworking tvOS Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableAFNetworking tvOS Example/Pods-RetriableAFNetworking tvOS Example.release.xcconfig"; sourceTree = "<group>"; };
-		6CFBBBD9E599509F1CD4909E /* Pods_RetriableAFNetworking_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetriableAFNetworking_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		748757D6EE3628134D62ED41 /* Pods_RetriableAFNetworking_tvOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetriableAFNetworking_tvOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		796304B448D00248239863AF /* Pods-RetriableAFNetworking iOS Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableAFNetworking iOS Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableAFNetworking iOS Example/Pods-RetriableAFNetworking iOS Example.release.xcconfig"; sourceTree = "<group>"; };
-		7DC34E945646414834402A46 /* Pods-RetriableAFNetworking tvOS Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableAFNetworking tvOS Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableAFNetworking tvOS Example/Pods-RetriableAFNetworking tvOS Example.debug.xcconfig"; sourceTree = "<group>"; };
-		8997C6F1E2FAD6371CA7AD28 /* Pods_RetriableAFNetworking_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetriableAFNetworking_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		909C168CBCD48378167ED964 /* Pods-RetriableAFNetworking iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableAFNetworking iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableAFNetworking iOS/Pods-RetriableAFNetworking iOS.release.xcconfig"; sourceTree = "<group>"; };
-		917515669B12FEB8D73D068F /* Pods_RetriableAFNetworking_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetriableAFNetworking_iOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ACFFC1DE181AACA0C7F01EDE /* Pods-RetriableAFNetworking tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableAFNetworking tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableAFNetworking tvOS/Pods-RetriableAFNetworking tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		C45F200EB4F2075FDD58C774 /* Pods-RetriableAFNetworking macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableAFNetworking macOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableAFNetworking macOS/Pods-RetriableAFNetworking macOS.debug.xcconfig"; sourceTree = "<group>"; };
-		C4B12C70E5D1071EFC8B3C52 /* Pods-RetriableAFNetworking watchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableAFNetworking watchOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableAFNetworking watchOS/Pods-RetriableAFNetworking watchOS.debug.xcconfig"; sourceTree = "<group>"; };
-		D5B41194D2C68C91675CFC1E /* Pods-RetriableAFNetworking iOS Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableAFNetworking iOS Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableAFNetworking iOS Example/Pods-RetriableAFNetworking iOS Example.debug.xcconfig"; sourceTree = "<group>"; };
-		DBFED6EFE55CAEF8C5796641 /* Pods_RetriableAFNetworking_macOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetriableAFNetworking_macOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DDA59865C5A469659D091ED0 /* Pods-RetriableAFNetworking macOS Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableAFNetworking macOS Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableAFNetworking macOS Example/Pods-RetriableAFNetworking macOS Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F3CEAAE528EA142D6D83B9C9 /* Pods_RetriableAFNetworking_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetriableAFNetworking_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B177094EAB93841701F3469 /* Pods_RetriableAFNetworking_tvOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetriableAFNetworking_tvOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13BA22BB854636E3407486F9 /* Pods-RetriableAFNetworking macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableAFNetworking macOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableAFNetworking macOS/Pods-RetriableAFNetworking macOS.release.xcconfig"; sourceTree = "<group>"; };
+		2564C794C7F783FF1FF6C28E /* Pods-RetriableAFNetworking iOS Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableAFNetworking iOS Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableAFNetworking iOS Example/Pods-RetriableAFNetworking iOS Example.debug.xcconfig"; sourceTree = "<group>"; };
+		390AE5C3C885D47BEAB80953 /* Pods_RetriableAFNetworking_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetriableAFNetworking_iOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F73B2F4566C3A3470B3E46F /* Pods-RetriableAFNetworking tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableAFNetworking tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableAFNetworking tvOS/Pods-RetriableAFNetworking tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		5673A36326BD910C13D57028 /* Pods_RetriableAFNetworking_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetriableAFNetworking_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		653B53059AD1A32483220172 /* Pods-RetriableAFNetworking macOS Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableAFNetworking macOS Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableAFNetworking macOS Example/Pods-RetriableAFNetworking macOS Example.release.xcconfig"; sourceTree = "<group>"; };
+		6725BAC6A246D46D9BE0E565 /* Pods_RetriableAFNetworking_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetriableAFNetworking_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D145EB524F2FB73BF185EBA /* Pods-RetriableAFNetworking watchOS Example Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableAFNetworking watchOS Example Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableAFNetworking watchOS Example Extension/Pods-RetriableAFNetworking watchOS Example Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		6FA4F1738966027B02CBC8CE /* Pods-RetriableAFNetworking tvOS Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableAFNetworking tvOS Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableAFNetworking tvOS Example/Pods-RetriableAFNetworking tvOS Example.debug.xcconfig"; sourceTree = "<group>"; };
+		74F6C7AF46D0264B8F067AEE /* Pods_RetriableAFNetworking_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetriableAFNetworking_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85F6127206E1D7F0DD1B4DD1 /* Pods-RetriableAFNetworking iOS Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableAFNetworking iOS Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableAFNetworking iOS Example/Pods-RetriableAFNetworking iOS Example.release.xcconfig"; sourceTree = "<group>"; };
+		892F7B835F7F798758D2C6D3 /* Pods-RetriableAFNetworking iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableAFNetworking iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableAFNetworking iOS/Pods-RetriableAFNetworking iOS.release.xcconfig"; sourceTree = "<group>"; };
+		8C1636FFE3AE77932599C211 /* Pods-RetriableAFNetworking watchOS Example Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableAFNetworking watchOS Example Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableAFNetworking watchOS Example Extension/Pods-RetriableAFNetworking watchOS Example Extension.release.xcconfig"; sourceTree = "<group>"; };
+		A19823E4187C3EBCCD56360D /* Pods-RetriableAFNetworking tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableAFNetworking tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableAFNetworking tvOS/Pods-RetriableAFNetworking tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		AA565363ECA54E28988DC101 /* Pods_RetriableAFNetworking_macOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetriableAFNetworking_macOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0E07339C8E3E70B873C5C2D /* Pods-RetriableAFNetworking watchOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableAFNetworking watchOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableAFNetworking watchOS/Pods-RetriableAFNetworking watchOS.release.xcconfig"; sourceTree = "<group>"; };
+		D194BD55B156F5E31AFE217C /* Pods-RetriableAFNetworking tvOS Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableAFNetworking tvOS Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableAFNetworking tvOS Example/Pods-RetriableAFNetworking tvOS Example.release.xcconfig"; sourceTree = "<group>"; };
+		F8AF6D38013A02D26BCA1CAC /* Pods-RetriableAFNetworking watchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableAFNetworking watchOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableAFNetworking watchOS/Pods-RetriableAFNetworking watchOS.debug.xcconfig"; sourceTree = "<group>"; };
+		FA64BA6EAD9BAEC0AB26A803 /* Pods_RetriableAFNetworking_watchOS_Example_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetriableAFNetworking_watchOS_Example_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -267,7 +308,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D1CCF8F17B6422B32CD353E /* Pods_RetriableAFNetworking_iOS.framework in Frameworks */,
+				04CFA13480B65B06FD4C1DCB /* Pods_RetriableAFNetworking_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +316,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E88F4F9058940297F73A02D1 /* Pods_RetriableAFNetworking_watchOS.framework in Frameworks */,
+				8ADE85D2AF765E604AA5F88D /* Pods_RetriableAFNetworking_watchOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +324,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2E6293734ACAACBA022CB82 /* Pods_RetriableAFNetworking_tvOS.framework in Frameworks */,
+				6E0804BCDBFEC22FFA012574 /* Pods_RetriableAFNetworking_tvOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +332,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3FAC7981E0691C91673D8C4 /* Pods_RetriableAFNetworking_macOS.framework in Frameworks */,
+				DDD83791DE4B5C1E0B76532F /* Pods_RetriableAFNetworking_macOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,7 +341,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A669BA3208B744000670341 /* RetriableAFNetworking.framework in Frameworks */,
-				3244168C7E35A44EBD4B7457 /* Pods_RetriableAFNetworking_iOS_Example.framework in Frameworks */,
+				5A18C1FFFC8BC1D658AA09EB /* Pods_RetriableAFNetworking_iOS_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,7 +350,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A669BA8208B744E00670341 /* RetriableAFNetworking.framework in Frameworks */,
-				B844B01E3A6F3B490ADAC442 /* Pods_RetriableAFNetworking_watchOS_Example_Extension.framework in Frameworks */,
+				C8D226DC7578F2F4756EA344 /* Pods_RetriableAFNetworking_watchOS_Example_Extension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,7 +359,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A669BAD208B746700670341 /* RetriableAFNetworking.framework in Frameworks */,
-				AB9C123F5DA66D8D7378331E /* Pods_RetriableAFNetworking_tvOS_Example.framework in Frameworks */,
+				AAA8AFF652174678CE460769 /* Pods_RetriableAFNetworking_tvOS_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,7 +368,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A669BB2208B747000670341 /* RetriableAFNetworking.framework in Frameworks */,
-				5E9AD55277DE76E8CE25EBE4 /* Pods_RetriableAFNetworking_macOS_Example.framework in Frameworks */,
+				65B55CC6A85B6AFC6C43D228 /* Pods_RetriableAFNetworking_macOS_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,8 +392,8 @@
 				0A669B79208B73F300670341 /* RetriableAFNetworking tvOS Example */,
 				0A669B90208B741000670341 /* RetriableAFNetworking macOS Example */,
 				0A5CF5E82088DD3800106219 /* Products */,
-				FC601F8B800F408CCE92DF43 /* Pods */,
-				5D1EF3CADCD405029841A8D8 /* Frameworks */,
+				4A0E3562F8273097E4F1F55B /* Pods */,
+				86E7BBA91AD8AB5C5B79C31F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -379,11 +420,20 @@
 				0A5CF6132088DDF900106219 /* AFHTTPSessionManager+Retriable.m */,
 				0A5CF5EB2088DD3800106219 /* Info.plist */,
 				0AFEF851208B8FBC00D6FEC4 /* LICENSE */,
+				0A4F501C208F27E5004A6456 /* .travis.yml */,
 				0AFEF852208B8FBC00D6FEC4 /* README.md */,
 				0A5CF5EA2088DD3800106219 /* RetriableAFNetworking.h */,
 				0AFEF850208B8FBC00D6FEC4 /* RetriableAFNetworking.podspec */,
 				0A5CF6142088DDF900106219 /* RetriableAFNetworkingResponse.h */,
 				0A5CF6152088DDF900106219 /* RetriableAFNetworkingResponse.m */,
+				0A4F4FF7208F24E9004A6456 /* AFHTTPRequestSerializer+FreeHTTPHeaders.h */,
+				0A4F4FF5208F24E8004A6456 /* AFHTTPRequestSerializer+FreeHTTPHeaders.m */,
+				0A4F4FF8208F24E9004A6456 /* AFHTTPSessionManager+FreeHTTPHeaders.h */,
+				0A4F4FFB208F24E9004A6456 /* AFHTTPSessionManager+FreeHTTPHeaders.m */,
+				0A4F4FFA208F24E9004A6456 /* AFJSONRequestSerializer+FreeHTTPHeaders.h */,
+				0A4F4FF4208F24E8004A6456 /* AFJSONRequestSerializer+FreeHTTPHeaders.m */,
+				0A4F4FF6208F24E9004A6456 /* AFPropertyListRequestSerializer+FreeHTTPHeaders.h */,
+				0A4F4FF9208F24E9004A6456 /* AFPropertyListRequestSerializer+FreeHTTPHeaders.m */,
 			);
 			path = RetriableAFNetworking;
 			sourceTree = "<group>";
@@ -458,42 +508,42 @@
 			path = "RetriableAFNetworking macOS Example";
 			sourceTree = "<group>";
 		};
-		5D1EF3CADCD405029841A8D8 /* Frameworks */ = {
+		4A0E3562F8273097E4F1F55B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6CFBBBD9E599509F1CD4909E /* Pods_RetriableAFNetworking_iOS.framework */,
-				917515669B12FEB8D73D068F /* Pods_RetriableAFNetworking_iOS_Example.framework */,
-				F3CEAAE528EA142D6D83B9C9 /* Pods_RetriableAFNetworking_macOS.framework */,
-				DBFED6EFE55CAEF8C5796641 /* Pods_RetriableAFNetworking_macOS_Example.framework */,
-				8997C6F1E2FAD6371CA7AD28 /* Pods_RetriableAFNetworking_tvOS.framework */,
-				748757D6EE3628134D62ED41 /* Pods_RetriableAFNetworking_tvOS_Example.framework */,
-				57A81D4C1EABE16E346926FB /* Pods_RetriableAFNetworking_watchOS.framework */,
-				50438C81C0A54DB5DAF2B258 /* Pods_RetriableAFNetworking_watchOS_Example_Extension.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		FC601F8B800F408CCE92DF43 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3D05BC4113A26D8FB6EBC00B /* Pods-RetriableAFNetworking iOS.debug.xcconfig */,
-				909C168CBCD48378167ED964 /* Pods-RetriableAFNetworking iOS.release.xcconfig */,
-				D5B41194D2C68C91675CFC1E /* Pods-RetriableAFNetworking iOS Example.debug.xcconfig */,
-				796304B448D00248239863AF /* Pods-RetriableAFNetworking iOS Example.release.xcconfig */,
-				C45F200EB4F2075FDD58C774 /* Pods-RetriableAFNetworking macOS.debug.xcconfig */,
-				1E099437A0A4C81B03AF081C /* Pods-RetriableAFNetworking macOS.release.xcconfig */,
-				DDA59865C5A469659D091ED0 /* Pods-RetriableAFNetworking macOS Example.debug.xcconfig */,
-				2F42710B363AA478DC74FE50 /* Pods-RetriableAFNetworking macOS Example.release.xcconfig */,
-				412677A72131B1461BC1482A /* Pods-RetriableAFNetworking tvOS.debug.xcconfig */,
-				ACFFC1DE181AACA0C7F01EDE /* Pods-RetriableAFNetworking tvOS.release.xcconfig */,
-				7DC34E945646414834402A46 /* Pods-RetriableAFNetworking tvOS Example.debug.xcconfig */,
-				60D2C071652E58B9157E5107 /* Pods-RetriableAFNetworking tvOS Example.release.xcconfig */,
-				C4B12C70E5D1071EFC8B3C52 /* Pods-RetriableAFNetworking watchOS.debug.xcconfig */,
-				481D9899A40127C7AF0ED428 /* Pods-RetriableAFNetworking watchOS.release.xcconfig */,
-				10A34534D305E02E179EA5D4 /* Pods-RetriableAFNetworking watchOS Example Extension.debug.xcconfig */,
-				1A3028F8B4815B9BAAF3EAFB /* Pods-RetriableAFNetworking watchOS Example Extension.release.xcconfig */,
+				00E67FDBFABF1B4BBF0CAB7C /* Pods-RetriableAFNetworking iOS.debug.xcconfig */,
+				892F7B835F7F798758D2C6D3 /* Pods-RetriableAFNetworking iOS.release.xcconfig */,
+				2564C794C7F783FF1FF6C28E /* Pods-RetriableAFNetworking iOS Example.debug.xcconfig */,
+				85F6127206E1D7F0DD1B4DD1 /* Pods-RetriableAFNetworking iOS Example.release.xcconfig */,
+				06D7DB531FF762CFFB3C150C /* Pods-RetriableAFNetworking macOS.debug.xcconfig */,
+				13BA22BB854636E3407486F9 /* Pods-RetriableAFNetworking macOS.release.xcconfig */,
+				02FC1EF3DE767958628FA9F8 /* Pods-RetriableAFNetworking macOS Example.debug.xcconfig */,
+				653B53059AD1A32483220172 /* Pods-RetriableAFNetworking macOS Example.release.xcconfig */,
+				3F73B2F4566C3A3470B3E46F /* Pods-RetriableAFNetworking tvOS.debug.xcconfig */,
+				A19823E4187C3EBCCD56360D /* Pods-RetriableAFNetworking tvOS.release.xcconfig */,
+				6FA4F1738966027B02CBC8CE /* Pods-RetriableAFNetworking tvOS Example.debug.xcconfig */,
+				D194BD55B156F5E31AFE217C /* Pods-RetriableAFNetworking tvOS Example.release.xcconfig */,
+				F8AF6D38013A02D26BCA1CAC /* Pods-RetriableAFNetworking watchOS.debug.xcconfig */,
+				D0E07339C8E3E70B873C5C2D /* Pods-RetriableAFNetworking watchOS.release.xcconfig */,
+				6D145EB524F2FB73BF185EBA /* Pods-RetriableAFNetworking watchOS Example Extension.debug.xcconfig */,
+				8C1636FFE3AE77932599C211 /* Pods-RetriableAFNetworking watchOS Example Extension.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		86E7BBA91AD8AB5C5B79C31F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74F6C7AF46D0264B8F067AEE /* Pods_RetriableAFNetworking_iOS.framework */,
+				390AE5C3C885D47BEAB80953 /* Pods_RetriableAFNetworking_iOS_Example.framework */,
+				6725BAC6A246D46D9BE0E565 /* Pods_RetriableAFNetworking_macOS.framework */,
+				AA565363ECA54E28988DC101 /* Pods_RetriableAFNetworking_macOS_Example.framework */,
+				08EF2577E69E0F3BC86636E0 /* Pods_RetriableAFNetworking_tvOS.framework */,
+				0B177094EAB93841701F3469 /* Pods_RetriableAFNetworking_tvOS_Example.framework */,
+				5673A36326BD910C13D57028 /* Pods_RetriableAFNetworking_watchOS.framework */,
+				FA64BA6EAD9BAEC0AB26A803 /* Pods_RetriableAFNetworking_watchOS_Example_Extension.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -504,7 +554,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A5CF61F2088DDFA00106219 /* AFHTTPSessionManager+Retriable.h in Headers */,
+				0A4F5008208F24E9004A6456 /* AFHTTPRequestSerializer+FreeHTTPHeaders.h in Headers */,
+				0A4F500C208F24E9004A6456 /* AFHTTPSessionManager+FreeHTTPHeaders.h in Headers */,
+				0A4F5014208F24E9004A6456 /* AFJSONRequestSerializer+FreeHTTPHeaders.h in Headers */,
 				0A5CF61C2088DDFA00106219 /* RetriableAFNetworkingResponse.h in Headers */,
+				0A4F5004208F24E9004A6456 /* AFPropertyListRequestSerializer+FreeHTTPHeaders.h in Headers */,
 				0A5CF5EC2088DD3800106219 /* RetriableAFNetworking.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -514,7 +568,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A669B25208B734E00670341 /* RetriableAFNetworking.h in Headers */,
+				0A4F5009208F24E9004A6456 /* AFHTTPRequestSerializer+FreeHTTPHeaders.h in Headers */,
+				0A4F500D208F24E9004A6456 /* AFHTTPSessionManager+FreeHTTPHeaders.h in Headers */,
+				0A4F5015208F24E9004A6456 /* AFJSONRequestSerializer+FreeHTTPHeaders.h in Headers */,
 				0A669B26208B734E00670341 /* RetriableAFNetworkingResponse.h in Headers */,
+				0A4F5005208F24E9004A6456 /* AFPropertyListRequestSerializer+FreeHTTPHeaders.h in Headers */,
 				0A669B23208B734E00670341 /* AFHTTPSessionManager+Retriable.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -524,7 +582,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A669B2A208B734E00670341 /* RetriableAFNetworking.h in Headers */,
+				0A4F500A208F24E9004A6456 /* AFHTTPRequestSerializer+FreeHTTPHeaders.h in Headers */,
+				0A4F500E208F24E9004A6456 /* AFHTTPSessionManager+FreeHTTPHeaders.h in Headers */,
+				0A4F5016208F24E9004A6456 /* AFJSONRequestSerializer+FreeHTTPHeaders.h in Headers */,
 				0A669B2B208B734E00670341 /* RetriableAFNetworkingResponse.h in Headers */,
+				0A4F5006208F24E9004A6456 /* AFPropertyListRequestSerializer+FreeHTTPHeaders.h in Headers */,
 				0A669B28208B734E00670341 /* AFHTTPSessionManager+Retriable.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -534,7 +596,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A669B2F208B734F00670341 /* RetriableAFNetworking.h in Headers */,
+				0A4F500B208F24E9004A6456 /* AFHTTPRequestSerializer+FreeHTTPHeaders.h in Headers */,
+				0A4F500F208F24E9004A6456 /* AFHTTPSessionManager+FreeHTTPHeaders.h in Headers */,
+				0A4F5017208F24E9004A6456 /* AFJSONRequestSerializer+FreeHTTPHeaders.h in Headers */,
 				0A669B30208B734F00670341 /* RetriableAFNetworkingResponse.h in Headers */,
+				0A4F5007208F24E9004A6456 /* AFPropertyListRequestSerializer+FreeHTTPHeaders.h in Headers */,
 				0A669B2D208B734F00670341 /* AFHTTPSessionManager+Retriable.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -546,7 +612,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A5CF5EF2088DD3800106219 /* Build configuration list for PBXNativeTarget "RetriableAFNetworking iOS" */;
 			buildPhases = (
-				310035B73E859C80DBE4B9C9 /* [CP] Check Pods Manifest.lock */,
+				A462E6C9FF3E382D29E8C78E /* [CP] Check Pods Manifest.lock */,
 				0A5CF5E22088DD3800106219 /* Sources */,
 				0A5CF5E32088DD3800106219 /* Frameworks */,
 				0A5CF5E42088DD3800106219 /* Headers */,
@@ -565,7 +631,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A669B06208B720600670341 /* Build configuration list for PBXNativeTarget "RetriableAFNetworking watchOS" */;
 			buildPhases = (
-				DDE79DFA913B673DE77D3135 /* [CP] Check Pods Manifest.lock */,
+				0634833A30FC4AD3F74DDB60 /* [CP] Check Pods Manifest.lock */,
 				0A669AFC208B720600670341 /* Sources */,
 				0A669AFD208B720600670341 /* Frameworks */,
 				0A669AFE208B720600670341 /* Headers */,
@@ -584,7 +650,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A669B13208B724400670341 /* Build configuration list for PBXNativeTarget "RetriableAFNetworking tvOS" */;
 			buildPhases = (
-				82B348D74F4F156BDED8F0EF /* [CP] Check Pods Manifest.lock */,
+				689ECB794B281E37D0B09051 /* [CP] Check Pods Manifest.lock */,
 				0A669B09208B724300670341 /* Sources */,
 				0A669B0A208B724300670341 /* Frameworks */,
 				0A669B0B208B724300670341 /* Headers */,
@@ -603,7 +669,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A669B20208B725F00670341 /* Build configuration list for PBXNativeTarget "RetriableAFNetworking macOS" */;
 			buildPhases = (
-				AA46CCDEDB517AC22DBF516E /* [CP] Check Pods Manifest.lock */,
+				91ED73CF9337703D8665DB89 /* [CP] Check Pods Manifest.lock */,
 				0A669B16208B725F00670341 /* Sources */,
 				0A669B17208B725F00670341 /* Frameworks */,
 				0A669B18208B725F00670341 /* Headers */,
@@ -622,13 +688,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A669B4A208B73A800670341 /* Build configuration list for PBXNativeTarget "RetriableAFNetworking iOS Example" */;
 			buildPhases = (
-				90CB2DE3945C91F31CA78C0B /* [CP] Check Pods Manifest.lock */,
+				DF74C82C4BC1DDC90F8C08DC /* [CP] Check Pods Manifest.lock */,
 				0A669B33208B73A700670341 /* Sources */,
 				0A669B34208B73A700670341 /* Frameworks */,
 				0A669B35208B73A700670341 /* Resources */,
 				0A669B73208B73DE00670341 /* Embed Watch Content */,
 				0A669BA7208B744000670341 /* Embed Frameworks */,
-				79754D0522CDFCD98FEFDD1E /* [CP] Embed Pods Frameworks */,
+				05C43EDA459189260AB51C6D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -663,12 +729,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A669B6C208B73DE00670341 /* Build configuration list for PBXNativeTarget "RetriableAFNetworking watchOS Example Extension" */;
 			buildPhases = (
-				5F2D3A73AC1F1AD32C6BE226 /* [CP] Check Pods Manifest.lock */,
+				38D21D697BCF81A01D351FBA /* [CP] Check Pods Manifest.lock */,
 				0A669B57208B73DD00670341 /* Sources */,
 				0A669B58208B73DD00670341 /* Frameworks */,
 				0A669B59208B73DD00670341 /* Resources */,
 				0A669BAC208B744E00670341 /* Embed Frameworks */,
-				72A6B474588683CBB3EDFD17 /* [CP] Embed Pods Frameworks */,
+				1040341F6379E695B8F57B76 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -684,12 +750,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A669B88208B73F500670341 /* Build configuration list for PBXNativeTarget "RetriableAFNetworking tvOS Example" */;
 			buildPhases = (
-				FC028AA1627252F8E7E12759 /* [CP] Check Pods Manifest.lock */,
+				F0BDA714C69A72B43488DBC2 /* [CP] Check Pods Manifest.lock */,
 				0A669B74208B73F300670341 /* Sources */,
 				0A669B75208B73F300670341 /* Frameworks */,
 				0A669B76208B73F300670341 /* Resources */,
 				0A669BB1208B746700670341 /* Embed Frameworks */,
-				469E7294292CF08900F08F12 /* [CP] Embed Pods Frameworks */,
+				565480748DC19BA83106AA9E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -705,12 +771,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A669BA0208B741100670341 /* Build configuration list for PBXNativeTarget "RetriableAFNetworking macOS Example" */;
 			buildPhases = (
-				9053D61C8BD55DC20D774850 /* [CP] Check Pods Manifest.lock */,
+				2C67F8F9F15D7A171405FEF0 /* [CP] Check Pods Manifest.lock */,
 				0A669B8B208B741000670341 /* Sources */,
 				0A669B8C208B741000670341 /* Frameworks */,
 				0A669B8D208B741000670341 /* Resources */,
 				0A669BB6208B747000670341 /* Embed Frameworks */,
-				0CCD9D38AD0D132D0437565E /* [CP] Embed Pods Frameworks */,
+				D7AFF4FC1418DD9438E753F3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -863,103 +929,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0CCD9D38AD0D132D0437565E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-RetriableAFNetworking macOS Example/Pods-RetriableAFNetworking macOS Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/AFNetworking-c94d3492/AFNetworking.framework",
-				"${BUILT_PRODUCTS_DIR}/Retriable-macOS/Retriable.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Retriable.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RetriableAFNetworking macOS Example/Pods-RetriableAFNetworking macOS Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		310035B73E859C80DBE4B9C9 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RetriableAFNetworking iOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		469E7294292CF08900F08F12 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-RetriableAFNetworking tvOS Example/Pods-RetriableAFNetworking tvOS Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/AFNetworking-tvOS/AFNetworking.framework",
-				"${BUILT_PRODUCTS_DIR}/Retriable-tvOS/Retriable.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Retriable.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RetriableAFNetworking tvOS Example/Pods-RetriableAFNetworking tvOS Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5F2D3A73AC1F1AD32C6BE226 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RetriableAFNetworking watchOS Example Extension-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		72A6B474588683CBB3EDFD17 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-RetriableAFNetworking watchOS Example Extension/Pods-RetriableAFNetworking watchOS Example Extension-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/AFNetworking.root-NSURLSession-Security-Serialization/AFNetworking.framework",
-				"${BUILT_PRODUCTS_DIR}/Retriable-watchOS/Retriable.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Retriable.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RetriableAFNetworking watchOS Example Extension/Pods-RetriableAFNetworking watchOS Example Extension-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		79754D0522CDFCD98FEFDD1E /* [CP] Embed Pods Frameworks */ = {
+		05C43EDA459189260AB51C6D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -967,11 +937,13 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-RetriableAFNetworking iOS Example/Pods-RetriableAFNetworking iOS Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking-iOS/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/JRSwizzle-iOS/JRSwizzle.framework",
 				"${BUILT_PRODUCTS_DIR}/Retriable-iOS/Retriable.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JRSwizzle.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Retriable.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -979,79 +951,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RetriableAFNetworking iOS Example/Pods-RetriableAFNetworking iOS Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		82B348D74F4F156BDED8F0EF /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RetriableAFNetworking tvOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9053D61C8BD55DC20D774850 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RetriableAFNetworking macOS Example-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		90CB2DE3945C91F31CA78C0B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RetriableAFNetworking iOS Example-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AA46CCDEDB517AC22DBF516E /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RetriableAFNetworking macOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DDE79DFA913B673DE77D3135 /* [CP] Check Pods Manifest.lock */ = {
+		0634833A30FC4AD3F74DDB60 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1069,7 +969,181 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FC028AA1627252F8E7E12759 /* [CP] Check Pods Manifest.lock */ = {
+		1040341F6379E695B8F57B76 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RetriableAFNetworking watchOS Example Extension/Pods-RetriableAFNetworking watchOS Example Extension-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking.root-NSURLSession-Security-Serialization/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/JRSwizzle-watchOS/JRSwizzle.framework",
+				"${BUILT_PRODUCTS_DIR}/Retriable-watchOS/Retriable.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JRSwizzle.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Retriable.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RetriableAFNetworking watchOS Example Extension/Pods-RetriableAFNetworking watchOS Example Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C67F8F9F15D7A171405FEF0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RetriableAFNetworking macOS Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38D21D697BCF81A01D351FBA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RetriableAFNetworking watchOS Example Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		565480748DC19BA83106AA9E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RetriableAFNetworking tvOS Example/Pods-RetriableAFNetworking tvOS Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking-tvOS/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/JRSwizzle-tvOS/JRSwizzle.framework",
+				"${BUILT_PRODUCTS_DIR}/Retriable-tvOS/Retriable.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JRSwizzle.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Retriable.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RetriableAFNetworking tvOS Example/Pods-RetriableAFNetworking tvOS Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		689ECB794B281E37D0B09051 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RetriableAFNetworking tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91ED73CF9337703D8665DB89 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RetriableAFNetworking macOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A462E6C9FF3E382D29E8C78E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RetriableAFNetworking iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7AFF4FC1418DD9438E753F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RetriableAFNetworking macOS Example/Pods-RetriableAFNetworking macOS Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking-c94d3492/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/JRSwizzle-macOS/JRSwizzle.framework",
+				"${BUILT_PRODUCTS_DIR}/Retriable-macOS/Retriable.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JRSwizzle.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Retriable.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RetriableAFNetworking macOS Example/Pods-RetriableAFNetworking macOS Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF74C82C4BC1DDC90F8C08DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RetriableAFNetworking iOS Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0BDA714C69A72B43488DBC2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1094,8 +1168,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A4F5000208F24E9004A6456 /* AFHTTPRequestSerializer+FreeHTTPHeaders.m in Sources */,
+				0A4F4FFC208F24E9004A6456 /* AFJSONRequestSerializer+FreeHTTPHeaders.m in Sources */,
 				0A5CF61D2088DDFA00106219 /* RetriableAFNetworkingResponse.m in Sources */,
 				0A5CF61B2088DDFA00106219 /* AFHTTPSessionManager+Retriable.m in Sources */,
+				0A4F5010208F24E9004A6456 /* AFPropertyListRequestSerializer+FreeHTTPHeaders.m in Sources */,
+				0A4F5018208F24E9004A6456 /* AFHTTPSessionManager+FreeHTTPHeaders.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1103,8 +1181,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A4F5001208F24E9004A6456 /* AFHTTPRequestSerializer+FreeHTTPHeaders.m in Sources */,
+				0A4F4FFD208F24E9004A6456 /* AFJSONRequestSerializer+FreeHTTPHeaders.m in Sources */,
 				0A669B27208B734E00670341 /* RetriableAFNetworkingResponse.m in Sources */,
 				0A669B24208B734E00670341 /* AFHTTPSessionManager+Retriable.m in Sources */,
+				0A4F5011208F24E9004A6456 /* AFPropertyListRequestSerializer+FreeHTTPHeaders.m in Sources */,
+				0A4F5019208F24E9004A6456 /* AFHTTPSessionManager+FreeHTTPHeaders.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1112,8 +1194,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A4F5002208F24E9004A6456 /* AFHTTPRequestSerializer+FreeHTTPHeaders.m in Sources */,
+				0A4F4FFE208F24E9004A6456 /* AFJSONRequestSerializer+FreeHTTPHeaders.m in Sources */,
 				0A669B2C208B734E00670341 /* RetriableAFNetworkingResponse.m in Sources */,
 				0A669B29208B734E00670341 /* AFHTTPSessionManager+Retriable.m in Sources */,
+				0A4F5012208F24E9004A6456 /* AFPropertyListRequestSerializer+FreeHTTPHeaders.m in Sources */,
+				0A4F501A208F24E9004A6456 /* AFHTTPSessionManager+FreeHTTPHeaders.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1121,8 +1207,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A4F5003208F24E9004A6456 /* AFHTTPRequestSerializer+FreeHTTPHeaders.m in Sources */,
+				0A4F4FFF208F24E9004A6456 /* AFJSONRequestSerializer+FreeHTTPHeaders.m in Sources */,
 				0A669B31208B734F00670341 /* RetriableAFNetworkingResponse.m in Sources */,
 				0A669B2E208B734F00670341 /* AFHTTPSessionManager+Retriable.m in Sources */,
+				0A4F5013208F24E9004A6456 /* AFPropertyListRequestSerializer+FreeHTTPHeaders.m in Sources */,
+				0A4F501B208F24E9004A6456 /* AFHTTPSessionManager+FreeHTTPHeaders.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1362,7 +1452,7 @@
 		};
 		0A5CF5F02088DD3800106219 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D05BC4113A26D8FB6EBC00B /* Pods-RetriableAFNetworking iOS.debug.xcconfig */;
+			baseConfigurationReference = 00E67FDBFABF1B4BBF0CAB7C /* Pods-RetriableAFNetworking iOS.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
@@ -1389,7 +1479,7 @@
 		};
 		0A5CF5F12088DD3800106219 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 909C168CBCD48378167ED964 /* Pods-RetriableAFNetworking iOS.release.xcconfig */;
+			baseConfigurationReference = 892F7B835F7F798758D2C6D3 /* Pods-RetriableAFNetworking iOS.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
@@ -1416,7 +1506,7 @@
 		};
 		0A669B07208B720600670341 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C4B12C70E5D1071EFC8B3C52 /* Pods-RetriableAFNetworking watchOS.debug.xcconfig */;
+			baseConfigurationReference = F8AF6D38013A02D26BCA1CAC /* Pods-RetriableAFNetworking watchOS.debug.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -1445,7 +1535,7 @@
 		};
 		0A669B08208B720600670341 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 481D9899A40127C7AF0ED428 /* Pods-RetriableAFNetworking watchOS.release.xcconfig */;
+			baseConfigurationReference = D0E07339C8E3E70B873C5C2D /* Pods-RetriableAFNetworking watchOS.release.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -1474,7 +1564,7 @@
 		};
 		0A669B14208B724400670341 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 412677A72131B1461BC1482A /* Pods-RetriableAFNetworking tvOS.debug.xcconfig */;
+			baseConfigurationReference = 3F73B2F4566C3A3470B3E46F /* Pods-RetriableAFNetworking tvOS.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;
@@ -1502,7 +1592,7 @@
 		};
 		0A669B15208B724400670341 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ACFFC1DE181AACA0C7F01EDE /* Pods-RetriableAFNetworking tvOS.release.xcconfig */;
+			baseConfigurationReference = A19823E4187C3EBCCD56360D /* Pods-RetriableAFNetworking tvOS.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;
@@ -1530,7 +1620,7 @@
 		};
 		0A669B21208B725F00670341 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C45F200EB4F2075FDD58C774 /* Pods-RetriableAFNetworking macOS.debug.xcconfig */;
+			baseConfigurationReference = 06D7DB531FF762CFFB3C150C /* Pods-RetriableAFNetworking macOS.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Manual;
@@ -1559,7 +1649,7 @@
 		};
 		0A669B22208B725F00670341 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E099437A0A4C81B03AF081C /* Pods-RetriableAFNetworking macOS.release.xcconfig */;
+			baseConfigurationReference = 13BA22BB854636E3407486F9 /* Pods-RetriableAFNetworking macOS.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Manual;
@@ -1588,7 +1678,7 @@
 		};
 		0A669B4B208B73A800670341 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D5B41194D2C68C91675CFC1E /* Pods-RetriableAFNetworking iOS Example.debug.xcconfig */;
+			baseConfigurationReference = 2564C794C7F783FF1FF6C28E /* Pods-RetriableAFNetworking iOS Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -1609,7 +1699,7 @@
 		};
 		0A669B4C208B73A800670341 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 796304B448D00248239863AF /* Pods-RetriableAFNetworking iOS Example.release.xcconfig */;
+			baseConfigurationReference = 85F6127206E1D7F0DD1B4DD1 /* Pods-RetriableAFNetworking iOS Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -1630,7 +1720,7 @@
 		};
 		0A669B6D208B73DE00670341 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 10A34534D305E02E179EA5D4 /* Pods-RetriableAFNetworking watchOS Example Extension.debug.xcconfig */;
+			baseConfigurationReference = 6D145EB524F2FB73BF185EBA /* Pods-RetriableAFNetworking watchOS Example Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Manual;
@@ -1647,13 +1737,13 @@
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
 			};
 			name = Debug;
 		};
 		0A669B6E208B73DE00670341 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A3028F8B4815B9BAAF3EAFB /* Pods-RetriableAFNetworking watchOS Example Extension.release.xcconfig */;
+			baseConfigurationReference = 8C1636FFE3AE77932599C211 /* Pods-RetriableAFNetworking watchOS Example Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Manual;
@@ -1670,7 +1760,7 @@
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
 			};
 			name = Release;
 		};
@@ -1688,7 +1778,7 @@
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
 			};
 			name = Debug;
 		};
@@ -1706,13 +1796,13 @@
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
 			};
 			name = Release;
 		};
 		0A669B89208B73F500670341 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7DC34E945646414834402A46 /* Pods-RetriableAFNetworking tvOS Example.debug.xcconfig */;
+			baseConfigurationReference = 6FA4F1738966027B02CBC8CE /* Pods-RetriableAFNetworking tvOS Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1734,7 +1824,7 @@
 		};
 		0A669B8A208B73F500670341 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 60D2C071652E58B9157E5107 /* Pods-RetriableAFNetworking tvOS Example.release.xcconfig */;
+			baseConfigurationReference = D194BD55B156F5E31AFE217C /* Pods-RetriableAFNetworking tvOS Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1756,7 +1846,7 @@
 		};
 		0A669BA1208B741100670341 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DDA59865C5A469659D091ED0 /* Pods-RetriableAFNetworking macOS Example.debug.xcconfig */;
+			baseConfigurationReference = 02FC1EF3DE767958628FA9F8 /* Pods-RetriableAFNetworking macOS Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "RetriableAFNetworking macOS Example/RetriableAFNetworking_macOS_Example.entitlements";
@@ -1778,7 +1868,7 @@
 		};
 		0A669BA2208B741100670341 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F42710B363AA478DC74FE50 /* Pods-RetriableAFNetworking macOS Example.release.xcconfig */;
+			baseConfigurationReference = 653B53059AD1A32483220172 /* Pods-RetriableAFNetworking macOS Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "RetriableAFNetworking macOS Example/RetriableAFNetworking_macOS_Example.entitlements";

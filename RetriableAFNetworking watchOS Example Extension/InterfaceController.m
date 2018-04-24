@@ -10,7 +10,6 @@
 
 #import "InterfaceController.h"
 
-
 @interface InterfaceController ()
 
 @property (nonatomic,strong)AFHTTPSessionManager *sessionManager;
@@ -22,19 +21,12 @@
 
 - (void)awakeWithContext:(id)context {
     [super awakeWithContext:context];
-
-    // Configure interface objects here.
-}
-
-- (void)willActivate {
-    // This method is called when watch view controller is about to be visible to user
-    [super willActivate];
     [RetriableOperation setLogEnabled:YES];
     self.sessionManager=[AFHTTPSessionManager manager];
-    [self.sessionManager GET:@"https://api.github.com/repos/emsihyo/RetriableAFNetworking/readme" parameters:nil progress:nil success:^(NSURLSessionDataTask *task, id responseObject) {
-        
+    [self.sessionManager GET:@"https://api.github.com/repos/emsihyo/RetriableAFNetworking/readme" headers:@{@"x-header-1":@"x-header-1"} parameters:nil progress:nil success:^(NSURLSessionDataTask *task, id responseObject) {
+        NSLog(@"url:%@, headers: %@",task.currentRequest.URL,[[task currentRequest] allHTTPHeaderFields]);
     } failure:^(NSURLSessionDataTask *task, NSError *error) {
-        
+        NSLog(@"url:%@, headers: %@",task.currentRequest.URL,[[task currentRequest] allHTTPHeaderFields]);
     } retryAfter:^NSTimeInterval(NSInteger currentRetryTime, NSError *latestError) {
         if(![latestError.domain isEqualToString:NSURLErrorDomain]) return 0;
         switch (latestError.code) {
@@ -44,6 +36,12 @@
             default: return 0;
         }
     }];
+    // Configure interface objects here.
+}
+
+- (void)willActivate {
+    // This method is called when watch view controller is about to be visible to user
+    [super willActivate];
 }
 
 - (void)didDeactivate {
