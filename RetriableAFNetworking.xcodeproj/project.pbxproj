@@ -91,9 +91,13 @@
 		0A669BAE208B746700670341 /* RetriableAFNetworking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0A669B0E208B724300670341 /* RetriableAFNetworking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0A669BB2208B747000670341 /* RetriableAFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A669B1B208B725F00670341 /* RetriableAFNetworking.framework */; };
 		0A669BB3208B747000670341 /* RetriableAFNetworking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0A669B1B208B725F00670341 /* RetriableAFNetworking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0A77EDEC208F8AD900277C74 /* RetriableAFNetworkingTests_iOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A77EDEB208F8AD900277C74 /* RetriableAFNetworkingTests_iOS.m */; };
+		0A77EDEE208F8AD900277C74 /* RetriableAFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A5CF5E72088DD3800106219 /* RetriableAFNetworking.framework */; };
+		3B8498E20C620AD8A7DB1E00 /* Pods_RetriableAFNetworkingTests_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAB0A7C34282001E96C1124A /* Pods_RetriableAFNetworkingTests_iOS.framework */; };
 		5A18C1FFFC8BC1D658AA09EB /* Pods_RetriableAFNetworking_iOS_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 390AE5C3C885D47BEAB80953 /* Pods_RetriableAFNetworking_iOS_Example.framework */; };
 		65B55CC6A85B6AFC6C43D228 /* Pods_RetriableAFNetworking_macOS_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA565363ECA54E28988DC101 /* Pods_RetriableAFNetworking_macOS_Example.framework */; };
 		6E0804BCDBFEC22FFA012574 /* Pods_RetriableAFNetworking_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08EF2577E69E0F3BC86636E0 /* Pods_RetriableAFNetworking_tvOS.framework */; };
+		869FB8D7E2F2064C8B3D8F01 /* Pods_RetriableAFNetworking_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A77EDF4208F8BD700277C74 /* Pods_RetriableAFNetworking_iOS.framework */; };
 		8ADE85D2AF765E604AA5F88D /* Pods_RetriableAFNetworking_watchOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5673A36326BD910C13D57028 /* Pods_RetriableAFNetworking_watchOS.framework */; };
 		AAA8AFF652174678CE460769 /* Pods_RetriableAFNetworking_tvOS_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B177094EAB93841701F3469 /* Pods_RetriableAFNetworking_tvOS_Example.framework */; };
 		C8D226DC7578F2F4756EA344 /* Pods_RetriableAFNetworking_watchOS_Example_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA64BA6EAD9BAEC0AB26A803 /* Pods_RetriableAFNetworking_watchOS_Example_Extension.framework */; };
@@ -142,6 +146,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 0A669B1A208B725F00670341;
 			remoteInfo = "RetriableAFNetworking macOS";
+		};
+		0A77EDEF208F8AD900277C74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A5CF5DE2088DD3800106219 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A5CF5E62088DD3800106219;
+			remoteInfo = "RetriableAFNetworking iOS";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -278,6 +289,10 @@
 		0A669B9C208B741100670341 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A669B9D208B741100670341 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0A669B9F208B741100670341 /* RetriableAFNetworking_macOS_Example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RetriableAFNetworking_macOS_Example.entitlements; sourceTree = "<group>"; };
+		0A77EDE9208F8AD900277C74 /* RetriableAFNetworkingTests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RetriableAFNetworkingTests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A77EDEB208F8AD900277C74 /* RetriableAFNetworkingTests_iOS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RetriableAFNetworkingTests_iOS.m; sourceTree = "<group>"; };
+		0A77EDED208F8AD900277C74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A77EDF4208F8BD700277C74 /* Pods_RetriableAFNetworking_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_RetriableAFNetworking_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AFEF850208B8FBC00D6FEC4 /* RetriableAFNetworking.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = RetriableAFNetworking.podspec; sourceTree = SOURCE_ROOT; };
 		0AFEF851208B8FBC00D6FEC4 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
 		0AFEF852208B8FBC00D6FEC4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
@@ -286,6 +301,7 @@
 		2564C794C7F783FF1FF6C28E /* Pods-RetriableAFNetworking iOS Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableAFNetworking iOS Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableAFNetworking iOS Example/Pods-RetriableAFNetworking iOS Example.debug.xcconfig"; sourceTree = "<group>"; };
 		390AE5C3C885D47BEAB80953 /* Pods_RetriableAFNetworking_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetriableAFNetworking_iOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F73B2F4566C3A3470B3E46F /* Pods-RetriableAFNetworking tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableAFNetworking tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableAFNetworking tvOS/Pods-RetriableAFNetworking tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		54ECC009AE94F56CE9EB3E87 /* Pods-RetriableAFNetworkingTests iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableAFNetworkingTests iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableAFNetworkingTests iOS/Pods-RetriableAFNetworkingTests iOS.release.xcconfig"; sourceTree = "<group>"; };
 		5673A36326BD910C13D57028 /* Pods_RetriableAFNetworking_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetriableAFNetworking_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		653B53059AD1A32483220172 /* Pods-RetriableAFNetworking macOS Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableAFNetworking macOS Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableAFNetworking macOS Example/Pods-RetriableAFNetworking macOS Example.release.xcconfig"; sourceTree = "<group>"; };
 		6725BAC6A246D46D9BE0E565 /* Pods_RetriableAFNetworking_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetriableAFNetworking_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -297,8 +313,10 @@
 		8C1636FFE3AE77932599C211 /* Pods-RetriableAFNetworking watchOS Example Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableAFNetworking watchOS Example Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableAFNetworking watchOS Example Extension/Pods-RetriableAFNetworking watchOS Example Extension.release.xcconfig"; sourceTree = "<group>"; };
 		A19823E4187C3EBCCD56360D /* Pods-RetriableAFNetworking tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableAFNetworking tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableAFNetworking tvOS/Pods-RetriableAFNetworking tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		AA565363ECA54E28988DC101 /* Pods_RetriableAFNetworking_macOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetriableAFNetworking_macOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAB0A7C34282001E96C1124A /* Pods_RetriableAFNetworkingTests_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetriableAFNetworkingTests_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0E07339C8E3E70B873C5C2D /* Pods-RetriableAFNetworking watchOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableAFNetworking watchOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableAFNetworking watchOS/Pods-RetriableAFNetworking watchOS.release.xcconfig"; sourceTree = "<group>"; };
 		D194BD55B156F5E31AFE217C /* Pods-RetriableAFNetworking tvOS Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableAFNetworking tvOS Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableAFNetworking tvOS Example/Pods-RetriableAFNetworking tvOS Example.release.xcconfig"; sourceTree = "<group>"; };
+		E517F167540ADA7172F2B89D /* Pods-RetriableAFNetworkingTests iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableAFNetworkingTests iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableAFNetworkingTests iOS/Pods-RetriableAFNetworkingTests iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		F8AF6D38013A02D26BCA1CAC /* Pods-RetriableAFNetworking watchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetriableAFNetworking watchOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RetriableAFNetworking watchOS/Pods-RetriableAFNetworking watchOS.debug.xcconfig"; sourceTree = "<group>"; };
 		FA64BA6EAD9BAEC0AB26A803 /* Pods_RetriableAFNetworking_watchOS_Example_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetriableAFNetworking_watchOS_Example_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -309,6 +327,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04CFA13480B65B06FD4C1DCB /* Pods_RetriableAFNetworking_iOS.framework in Frameworks */,
+				869FB8D7E2F2064C8B3D8F01 /* Pods_RetriableAFNetworking_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,6 +391,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0A77EDE6208F8AD900277C74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A77EDEE208F8AD900277C74 /* RetriableAFNetworking.framework in Frameworks */,
+				3B8498E20C620AD8A7DB1E00 /* Pods_RetriableAFNetworkingTests_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EAF0C4028ACA82E5FF6C3D81 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -391,6 +419,7 @@
 				0A669B5F208B73DD00670341 /* RetriableAFNetworking watchOS Example Extension */,
 				0A669B79208B73F300670341 /* RetriableAFNetworking tvOS Example */,
 				0A669B90208B741000670341 /* RetriableAFNetworking macOS Example */,
+				0A77EDEA208F8AD900277C74 /* RetriableAFNetworkingTests iOS */,
 				0A5CF5E82088DD3800106219 /* Products */,
 				4A0E3562F8273097E4F1F55B /* Pods */,
 				86E7BBA91AD8AB5C5B79C31F /* Frameworks */,
@@ -409,6 +438,7 @@
 				0A669B5B208B73DD00670341 /* RetriableAFNetworking watchOS Example Extension.appex */,
 				0A669B78208B73F300670341 /* RetriableAFNetworking tvOS Example.app */,
 				0A669B8F208B741000670341 /* RetriableAFNetworking macOS Example.app */,
+				0A77EDE9208F8AD900277C74 /* RetriableAFNetworkingTests iOS.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -508,6 +538,15 @@
 			path = "RetriableAFNetworking macOS Example";
 			sourceTree = "<group>";
 		};
+		0A77EDEA208F8AD900277C74 /* RetriableAFNetworkingTests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0A77EDEB208F8AD900277C74 /* RetriableAFNetworkingTests_iOS.m */,
+				0A77EDED208F8AD900277C74 /* Info.plist */,
+			);
+			path = "RetriableAFNetworkingTests iOS";
+			sourceTree = "<group>";
+		};
 		4A0E3562F8273097E4F1F55B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -527,6 +566,8 @@
 				D0E07339C8E3E70B873C5C2D /* Pods-RetriableAFNetworking watchOS.release.xcconfig */,
 				6D145EB524F2FB73BF185EBA /* Pods-RetriableAFNetworking watchOS Example Extension.debug.xcconfig */,
 				8C1636FFE3AE77932599C211 /* Pods-RetriableAFNetworking watchOS Example Extension.release.xcconfig */,
+				E517F167540ADA7172F2B89D /* Pods-RetriableAFNetworkingTests iOS.debug.xcconfig */,
+				54ECC009AE94F56CE9EB3E87 /* Pods-RetriableAFNetworkingTests iOS.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -534,6 +575,7 @@
 		86E7BBA91AD8AB5C5B79C31F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0A77EDF4208F8BD700277C74 /* Pods_RetriableAFNetworking_iOS.framework */,
 				74F6C7AF46D0264B8F067AEE /* Pods_RetriableAFNetworking_iOS.framework */,
 				390AE5C3C885D47BEAB80953 /* Pods_RetriableAFNetworking_iOS_Example.framework */,
 				6725BAC6A246D46D9BE0E565 /* Pods_RetriableAFNetworking_macOS.framework */,
@@ -542,6 +584,7 @@
 				0B177094EAB93841701F3469 /* Pods_RetriableAFNetworking_tvOS_Example.framework */,
 				5673A36326BD910C13D57028 /* Pods_RetriableAFNetworking_watchOS.framework */,
 				FA64BA6EAD9BAEC0AB26A803 /* Pods_RetriableAFNetworking_watchOS_Example_Extension.framework */,
+				BAB0A7C34282001E96C1124A /* Pods_RetriableAFNetworkingTests_iOS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -788,6 +831,26 @@
 			productReference = 0A669B8F208B741000670341 /* RetriableAFNetworking macOS Example.app */;
 			productType = "com.apple.product-type.application";
 		};
+		0A77EDE8208F8AD900277C74 /* RetriableAFNetworkingTests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A77EDF3208F8AD900277C74 /* Build configuration list for PBXNativeTarget "RetriableAFNetworkingTests iOS" */;
+			buildPhases = (
+				8E626F13505090D9577AFA95 /* [CP] Check Pods Manifest.lock */,
+				0A77EDE5208F8AD900277C74 /* Sources */,
+				0A77EDE6208F8AD900277C74 /* Frameworks */,
+				0A77EDE7208F8AD900277C74 /* Resources */,
+				962324EB1817FE58AA23BF3E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A77EDF0208F8AD900277C74 /* PBXTargetDependency */,
+			);
+			name = "RetriableAFNetworkingTests iOS";
+			productName = "RetriableAFNetworkingTests iOS";
+			productReference = 0A77EDE9208F8AD900277C74 /* RetriableAFNetworkingTests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -824,6 +887,9 @@
 					0A669B8E208B741000670341 = {
 						CreatedOnToolsVersion = 9.3;
 					};
+					0A77EDE8208F8AD900277C74 = {
+						CreatedOnToolsVersion = 9.3;
+					};
 				};
 			};
 			buildConfigurationList = 0A5CF5E12088DD3800106219 /* Build configuration list for PBXProject "RetriableAFNetworking" */;
@@ -848,6 +914,7 @@
 				0A669B5A208B73DD00670341 /* RetriableAFNetworking watchOS Example Extension */,
 				0A669B77208B73F300670341 /* RetriableAFNetworking tvOS Example */,
 				0A669B8E208B741000670341 /* RetriableAFNetworking macOS Example */,
+				0A77EDE8208F8AD900277C74 /* RetriableAFNetworkingTests iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -923,6 +990,13 @@
 			files = (
 				0A669B98208B741100670341 /* Assets.xcassets in Resources */,
 				0A669B9B208B741100670341 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A77EDE7208F8AD900277C74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1067,6 +1141,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		8E626F13505090D9577AFA95 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RetriableAFNetworkingTests iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		91ED73CF9337703D8665DB89 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1083,6 +1175,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		962324EB1817FE58AA23BF3E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RetriableAFNetworkingTests iOS/Pods-RetriableAFNetworkingTests iOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking-iOS/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/JRSwizzle-iOS/JRSwizzle.framework",
+				"${BUILT_PRODUCTS_DIR}/Retriable-iOS/Retriable.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JRSwizzle.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Retriable.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RetriableAFNetworkingTests iOS/Pods-RetriableAFNetworkingTests iOS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A462E6C9FF3E382D29E8C78E /* [CP] Check Pods Manifest.lock */ = {
@@ -1255,6 +1369,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0A77EDE5208F8AD900277C74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A77EDEC208F8AD900277C74 /* RetriableAFNetworkingTests_iOS.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -1287,6 +1409,11 @@
 			isa = PBXTargetDependency;
 			target = 0A669B1A208B725F00670341 /* RetriableAFNetworking macOS */;
 			targetProxy = 0A669BB4208B747000670341 /* PBXContainerItemProxy */;
+		};
+		0A77EDF0208F8AD900277C74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A5CF5E62088DD3800106219 /* RetriableAFNetworking iOS */;
+			targetProxy = 0A77EDEF208F8AD900277C74 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1464,11 +1591,7 @@
 				INFOPLIST_FILE = RetriableAFNetworking/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.emsihyo.RetriableAFNetworking;
 				PRODUCT_NAME = RetriableAFNetworking;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1491,11 +1614,7 @@
 				INFOPLIST_FILE = RetriableAFNetworking/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.emsihyo.RetriableAFNetworking;
 				PRODUCT_NAME = RetriableAFNetworking;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1518,11 +1637,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "$(SRCROOT)/RetriableAFNetworking/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.emsihyo.RetriableAFNetworking;
 				PRODUCT_NAME = RetriableAFNetworking;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1547,11 +1662,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "$(SRCROOT)/RetriableAFNetworking/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.emsihyo.RetriableAFNetworking;
 				PRODUCT_NAME = RetriableAFNetworking;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1575,11 +1686,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "$(SRCROOT)/RetriableAFNetworking/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.emsihyo.RetriableAFNetworking;
 				PRODUCT_NAME = RetriableAFNetworking;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1603,11 +1710,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "$(SRCROOT)/RetriableAFNetworking/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.emsihyo.RetriableAFNetworking;
 				PRODUCT_NAME = RetriableAFNetworking;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1633,11 +1736,7 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "$(SRCROOT)/RetriableAFNetworking/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = com.emsihyo.RetriableAFNetworking;
 				PRODUCT_NAME = RetriableAFNetworking;
@@ -1662,11 +1761,7 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "$(SRCROOT)/RetriableAFNetworking/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = com.emsihyo.RetriableAFNetworking;
 				PRODUCT_NAME = RetriableAFNetworking;
@@ -1686,10 +1781,7 @@
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "RetriableAFNetworking iOS Example/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.RetriableAFNetworking-iOS-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1707,10 +1799,7 @@
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "RetriableAFNetworking iOS Example/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.RetriableAFNetworking-iOS-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1726,11 +1815,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "RetriableAFNetworking watchOS Example Extension/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.RetriableAFNetworking-iOS-Example.watchkitapp.watchkitextension";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1749,11 +1834,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "RetriableAFNetworking watchOS Example Extension/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.RetriableAFNetworking-iOS-Example.watchkitapp.watchkitextension";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1809,10 +1890,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "RetriableAFNetworking tvOS Example/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.RetriableAFNetworking-tvOS-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1831,10 +1909,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "RetriableAFNetworking tvOS Example/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.RetriableAFNetworking-tvOS-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1855,10 +1930,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = N4WZ33Z6KM;
 				INFOPLIST_FILE = "RetriableAFNetworking macOS Example/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.RetriableAFNetworking-macOS-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1877,14 +1949,41 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = N4WZ33Z6KM;
 				INFOPLIST_FILE = "RetriableAFNetworking macOS Example/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.RetriableAFNetworking-macOS-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0A77EDF1208F8AD900277C74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E517F167540ADA7172F2B89D /* Pods-RetriableAFNetworkingTests iOS.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "RetriableAFNetworkingTests iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.RetriableAFNetworkingTests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A77EDF2208F8AD900277C74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54ECC009AE94F56CE9EB3E87 /* Pods-RetriableAFNetworkingTests iOS.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "RetriableAFNetworkingTests iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.RetriableAFNetworkingTests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -1977,6 +2076,15 @@
 			buildConfigurations = (
 				0A669BA1208B741100670341 /* Debug */,
 				0A669BA2208B741100670341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A77EDF3208F8AD900277C74 /* Build configuration list for PBXNativeTarget "RetriableAFNetworkingTests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A77EDF1208F8AD900277C74 /* Debug */,
+				0A77EDF2208F8AD900277C74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

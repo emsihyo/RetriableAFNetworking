@@ -17,7 +17,7 @@ static void split_url(NSString *url,NSString **careless,NSMutableString **query)
     static NSRegularExpression *regex;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        regex=[NSRegularExpression regularExpressionWithPattern:@"^([^\\?]+$)|((.+\\?)(.*)$)" options:0 error:nil];
+        regex=[NSRegularExpression regularExpressionWithPattern:@"^([^\\?]*$)|((.*\\?)(.*)$)" options:0 error:nil];
     });
     NSTextCheckingResult *result=[regex firstMatchInString:url options:0 range:NSMakeRange(0, url.length)];
     NSRange range=[result rangeAtIndex:1];
@@ -45,9 +45,9 @@ void free_http_headers_encode(NSString *source,NSString **target,NSDictionary *h
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         set=[[NSCharacterSet URLQueryAllowedCharacterSet]mutableCopy];
-        [set removeCharactersInString:@"?"];
+        [set removeCharactersInString:@"?&"];
     });
-    NSString *subQuery=[[NSString stringWithFormat:@"%@=%@&%@=%@",free_http_url_key,source,free_http_headers_key,value] stringByAddingPercentEncodingWithAllowedCharacters:set];
+    NSString *subQuery=[NSString stringWithFormat:@"%@=%@&%@=%@",free_http_url_key,[source stringByAddingPercentEncodingWithAllowedCharacters:set],free_http_headers_key,[value stringByAddingPercentEncodingWithAllowedCharacters:set]];
     if(!query) query=[[NSString stringWithFormat:@"?%@",subQuery] mutableCopy];
     else [query insertString:[NSString stringWithFormat:@"?%@&",subQuery] atIndex:0];
     *target=[[careless stringByReplacingOccurrencesOfString:@"?" withString:@""] stringByAppendingString:query];
@@ -66,9 +66,14 @@ void free_http_headers_decode(NSString *source,NSString **target,NSDictionary **
         regex=[NSRegularExpression regularExpressionWithPattern:[NSString stringWithFormat:@"^%@\\=(.+?)\\&%@\\=(.+?)(\\&|$)",free_http_url_key,free_http_headers_key] options:0 error:nil];
     });
     NSTextCheckingResult *result=[regex firstMatchInString:query options:0 range:NSMakeRange(0, query.length)];
-    if (!result) return;
-    *headers=[NSJSONSerialization JSONObjectWithData:[[[query substringWithRange:[result rangeAtIndex:2]]  stringByRemovingPercentEncoding] dataUsingEncoding:NSUTF8StringEncoding] options:0 error:nil];
-    *target=[[query substringWithRange:[result rangeAtIndex:1]] stringByRemovingPercentEncoding];
+    NSRange range=[result rangeAtIndex:1];
+    if(range.length>0){
+        *target=[[query substringWithRange:range] stringByRemovingPercentEncoding];
+    }
+    range=[result  rangeAtIndex:2];
+    if (range.length>0){
+        *headers=[NSJSONSerialization JSONObjectWithData:[[[query substringWithRange:range]  stringByRemovingPercentEncoding] dataUsingEncoding:NSUTF8StringEncoding] options:0 error:nil];
+    }
     return;
 }
 

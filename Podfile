@@ -14,6 +14,14 @@ target 'RetriableAFNetworking iOS Example' do
     pod 'AFNetworking'
     pod 'JRSwizzle'
 end
+target 'RetriableAFNetworkingTests iOS' do
+    platform :ios,'8.0'
+    inhibit_all_warnings!
+    use_frameworks!
+    pod 'Retriable'
+    pod 'AFNetworking'
+    pod 'JRSwizzle'
+end
 target 'RetriableAFNetworking watchOS' do
     platform :watchos,'2.0'
     inhibit_all_warnings!

@@ -1,0 +1,6 @@
+framework module Pods_RetriableAFNetworkingTests_iOS {
+  umbrella header "Pods-RetriableAFNetworkingTests iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
