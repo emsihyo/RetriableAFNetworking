@@ -13,7 +13,7 @@
 NSString *const free_http_headers_key = @"free-http-header-key";
 NSString *const free_http_url_key = @"free-http-url-key";
 
-static inline void split_url(NSString *url,NSString **careless,NSMutableString **query){
+static void split_url(NSString *url,NSString **careless,NSMutableString **query){
     static NSRegularExpression *regex;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
@@ -41,16 +41,15 @@ void free_http_headers_encode(NSString *source,NSString **target,NSDictionary *h
     NSString *careless;
     NSMutableString *query;
     split_url(source, &careless, &query);
-    NSString *subQuery=[NSString stringWithFormat:@"%@=%@&%@=%@",free_http_url_key,source,free_http_headers_key,value];
     static NSMutableCharacterSet *set;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         set=[[NSCharacterSet URLQueryAllowedCharacterSet]mutableCopy];
         [set removeCharactersInString:@"?"];
     });
-    subQuery=[subQuery stringByAddingPercentEncodingWithAllowedCharacters:set];
+    NSString *subQuery=[[NSString stringWithFormat:@"%@=%@&%@=%@",free_http_url_key,source,free_http_headers_key,value] stringByAddingPercentEncodingWithAllowedCharacters:set];
     if(!query) query=[[NSString stringWithFormat:@"?%@",subQuery] mutableCopy];
-    else [query insertString:[NSString stringWithFormat:@"%@&",subQuery] atIndex:0];
+    else [query insertString:[NSString stringWithFormat:@"?%@&",subQuery] atIndex:0];
     *target=[[careless stringByReplacingOccurrencesOfString:@"?" withString:@""] stringByAppendingString:query];
 }
 
@@ -64,7 +63,7 @@ void free_http_headers_decode(NSString *source,NSString **target,NSDictionary **
     static NSRegularExpression *regex;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        regex=[NSRegularExpression regularExpressionWithPattern:[NSString stringWithFormat:@"^%@\\=(.+)\\&%@\\=(.+)(\\&|$)",free_http_url_key,free_http_headers_key] options:0 error:nil];
+        regex=[NSRegularExpression regularExpressionWithPattern:[NSString stringWithFormat:@"^%@\\=(.+?)\\&%@\\=(.+?)(\\&|$)",free_http_url_key,free_http_headers_key] options:0 error:nil];
     });
     NSTextCheckingResult *result=[regex firstMatchInString:query options:0 range:NSMakeRange(0, query.length)];
     if (!result) return;
