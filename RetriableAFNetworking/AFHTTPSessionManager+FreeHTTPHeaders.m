@@ -12,68 +12,55 @@
 
 NSString *const free_http_headers_key = @"free-http-header-key";
 NSString *const free_http_url_key = @"free-http-url-key";
+NSString *const free_http_nil = @"free-http-nil";
 
-static void split_url(NSString *url,NSString **careless,NSMutableString **query){
+static void split_url(NSString *url,NSString **careless,NSString **query){
     static NSRegularExpression *regex;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        regex=[NSRegularExpression regularExpressionWithPattern:@"^([^\\?]*$)|((.*\\?)(.*)$)" options:0 error:nil];
+        regex=[NSRegularExpression regularExpressionWithPattern:@"^([^\\?]*\\??)?(.*)?$" options:0 error:nil];
     });
     NSTextCheckingResult *result=[regex firstMatchInString:url options:0 range:NSMakeRange(0, url.length)];
     NSRange range=[result rangeAtIndex:1];
-    if(range.length>0){
-        *careless=[url substringWithRange:range];
-        return;
-    }
-    range=[result rangeAtIndex:3];
-    if(range.length>0) *careless=[url substringWithRange:range];
-    range=[result rangeAtIndex:4];
-    if(range.length>0) *query=[[url substringWithRange:range] mutableCopy];
+    if(careless) *careless=[url substringWithRange:range];
+    range=[result rangeAtIndex:2];
+    if(query) *query=[url substringWithRange:range];
 }
 
-void free_http_headers_encode(NSString *source,NSString **target,NSDictionary *headers){
-    *target=source;
-    if (source.length==0) return;
-    if (![headers isKindOfClass:NSDictionary.class]) return;
-    if (headers.count==0) return;
-    NSString *value=[[NSString alloc]initWithData:[NSJSONSerialization dataWithJSONObject:headers options:0 error:nil] encoding:NSUTF8StringEncoding];
-    if(value.length==0) return;
+void free_http_headers_encode(NSString *originalURL,NSString **encodedURL,NSDictionary *originalHeaders){
+    NSCParameterAssert(originalURL);
+    NSString *value;
+    if ([originalHeaders isKindOfClass:NSDictionary.class]) value=[[NSString alloc]initWithData:[NSJSONSerialization dataWithJSONObject:originalHeaders options:0 error:nil] encoding:NSUTF8StringEncoding];
+    else value=@"";
     NSString *careless;
-    NSMutableString *query;
-    split_url(source, &careless, &query);
+    NSString *query;
+    split_url(originalURL, &careless, &query);
     static NSMutableCharacterSet *set;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         set=[[NSCharacterSet URLQueryAllowedCharacterSet]mutableCopy];
         [set removeCharactersInString:@"?&"];
     });
-    NSString *subQuery=[NSString stringWithFormat:@"%@=%@&%@=%@",free_http_url_key,[source stringByAddingPercentEncodingWithAllowedCharacters:set],free_http_headers_key,[value stringByAddingPercentEncodingWithAllowedCharacters:set]];
-    if(!query) query=[[NSString stringWithFormat:@"?%@",subQuery] mutableCopy];
-    else [query insertString:[NSString stringWithFormat:@"?%@&",subQuery] atIndex:0];
-    *target=[[careless stringByReplacingOccurrencesOfString:@"?" withString:@""] stringByAppendingString:query];
+    NSString *subQuery=[NSString stringWithFormat:@"%@=%@&%@=%@",free_http_url_key,[originalURL stringByAddingPercentEncodingWithAllowedCharacters:set],free_http_headers_key,[value stringByAddingPercentEncodingWithAllowedCharacters:set]];
+    if(!query) query=[NSString stringWithFormat:@"?%@",subQuery];
+    else query=[NSString stringWithFormat:@"%@%@",[NSString stringWithFormat:@"?%@&",subQuery],query];
+    if(encodedURL) *encodedURL=[[careless stringByReplacingOccurrencesOfString:@"?" withString:@""] stringByAppendingString:query];
 }
 
-void free_http_headers_decode(NSString *source,NSString **target,NSDictionary **headers){
-    if (source.length==0) return;
-    *target=source;
-    NSString *careless;
-    NSMutableString *query;
-    split_url(source, &careless, &query);
-    if (!careless||!query) return;
+void free_http_headers_decode(NSString *encodedURL,NSString **decodedURL,NSDictionary **decodedHeaders){
+    NSString *query;
+    *decodedURL=encodedURL;
+    split_url(encodedURL,nil, &query);
     static NSRegularExpression *regex;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        regex=[NSRegularExpression regularExpressionWithPattern:[NSString stringWithFormat:@"^%@\\=(.+?)\\&%@\\=(.+?)(\\&|$)",free_http_url_key,free_http_headers_key] options:0 error:nil];
+        regex=[NSRegularExpression regularExpressionWithPattern:[NSString stringWithFormat:@"^%@\\=([^\\&]*)\\&%@\\=([^\\&]*)(\\&|$)",free_http_url_key,free_http_headers_key] options:0 error:nil];
     });
     NSTextCheckingResult *result=[regex firstMatchInString:query options:0 range:NSMakeRange(0, query.length)];
     NSRange range=[result rangeAtIndex:1];
-    if(range.length>0){
-        *target=[[query substringWithRange:range] stringByRemovingPercentEncoding];
-    }
-    range=[result  rangeAtIndex:2];
-    if (range.length>0){
-        *headers=[NSJSONSerialization JSONObjectWithData:[[[query substringWithRange:range]  stringByRemovingPercentEncoding] dataUsingEncoding:NSUTF8StringEncoding] options:0 error:nil];
-    }
+    if(decodedURL) *decodedURL=[[query substringWithRange:range] stringByRemovingPercentEncoding];
+    range=[result rangeAtIndex:2];
+    if(decodedHeaders) *decodedHeaders=[NSJSONSerialization JSONObjectWithData:[[[query substringWithRange:range] stringByRemovingPercentEncoding] dataUsingEncoding:NSUTF8StringEncoding] options:0 error:nil];
     return;
 }
 

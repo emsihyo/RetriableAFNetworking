@@ -446,24 +446,24 @@
 		0A5CF5E92088DD3800106219 /* RetriableAFNetworking */ = {
 			isa = PBXGroup;
 			children = (
+				0A4F501C208F27E5004A6456 /* .travis.yml */,
+				0A4F4FF7208F24E9004A6456 /* AFHTTPRequestSerializer+FreeHTTPHeaders.h */,
+				0A4F4FF5208F24E8004A6456 /* AFHTTPRequestSerializer+FreeHTTPHeaders.m */,
+				0A4F4FF8208F24E9004A6456 /* AFHTTPSessionManager+FreeHTTPHeaders.h */,
+				0A4F4FFB208F24E9004A6456 /* AFHTTPSessionManager+FreeHTTPHeaders.m */,
 				0A5CF6172088DDFA00106219 /* AFHTTPSessionManager+Retriable.h */,
 				0A5CF6132088DDF900106219 /* AFHTTPSessionManager+Retriable.m */,
+				0A4F4FFA208F24E9004A6456 /* AFJSONRequestSerializer+FreeHTTPHeaders.h */,
+				0A4F4FF4208F24E8004A6456 /* AFJSONRequestSerializer+FreeHTTPHeaders.m */,
+				0A4F4FF6208F24E9004A6456 /* AFPropertyListRequestSerializer+FreeHTTPHeaders.h */,
+				0A4F4FF9208F24E9004A6456 /* AFPropertyListRequestSerializer+FreeHTTPHeaders.m */,
 				0A5CF5EB2088DD3800106219 /* Info.plist */,
 				0AFEF851208B8FBC00D6FEC4 /* LICENSE */,
-				0A4F501C208F27E5004A6456 /* .travis.yml */,
 				0AFEF852208B8FBC00D6FEC4 /* README.md */,
 				0A5CF5EA2088DD3800106219 /* RetriableAFNetworking.h */,
 				0AFEF850208B8FBC00D6FEC4 /* RetriableAFNetworking.podspec */,
 				0A5CF6142088DDF900106219 /* RetriableAFNetworkingResponse.h */,
 				0A5CF6152088DDF900106219 /* RetriableAFNetworkingResponse.m */,
-				0A4F4FF7208F24E9004A6456 /* AFHTTPRequestSerializer+FreeHTTPHeaders.h */,
-				0A4F4FF5208F24E8004A6456 /* AFHTTPRequestSerializer+FreeHTTPHeaders.m */,
-				0A4F4FF8208F24E9004A6456 /* AFHTTPSessionManager+FreeHTTPHeaders.h */,
-				0A4F4FFB208F24E9004A6456 /* AFHTTPSessionManager+FreeHTTPHeaders.m */,
-				0A4F4FFA208F24E9004A6456 /* AFJSONRequestSerializer+FreeHTTPHeaders.h */,
-				0A4F4FF4208F24E8004A6456 /* AFJSONRequestSerializer+FreeHTTPHeaders.m */,
-				0A4F4FF6208F24E9004A6456 /* AFPropertyListRequestSerializer+FreeHTTPHeaders.h */,
-				0A4F4FF9208F24E9004A6456 /* AFPropertyListRequestSerializer+FreeHTTPHeaders.m */,
 			);
 			path = RetriableAFNetworking;
 			sourceTree = "<group>";
@@ -1591,7 +1591,11 @@
 				INFOPLIST_FILE = RetriableAFNetworking/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.emsihyo.RetriableAFNetworking;
 				PRODUCT_NAME = RetriableAFNetworking;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1614,7 +1618,11 @@
 				INFOPLIST_FILE = RetriableAFNetworking/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.emsihyo.RetriableAFNetworking;
 				PRODUCT_NAME = RetriableAFNetworking;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1637,7 +1645,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "$(SRCROOT)/RetriableAFNetworking/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.emsihyo.RetriableAFNetworking;
 				PRODUCT_NAME = RetriableAFNetworking;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1662,7 +1674,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "$(SRCROOT)/RetriableAFNetworking/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.emsihyo.RetriableAFNetworking;
 				PRODUCT_NAME = RetriableAFNetworking;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1686,7 +1702,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "$(SRCROOT)/RetriableAFNetworking/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.emsihyo.RetriableAFNetworking;
 				PRODUCT_NAME = RetriableAFNetworking;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1710,7 +1730,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "$(SRCROOT)/RetriableAFNetworking/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.emsihyo.RetriableAFNetworking;
 				PRODUCT_NAME = RetriableAFNetworking;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1736,7 +1760,11 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "$(SRCROOT)/RetriableAFNetworking/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = com.emsihyo.RetriableAFNetworking;
 				PRODUCT_NAME = RetriableAFNetworking;
@@ -1761,7 +1789,11 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "$(SRCROOT)/RetriableAFNetworking/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = com.emsihyo.RetriableAFNetworking;
 				PRODUCT_NAME = RetriableAFNetworking;
@@ -1781,7 +1813,10 @@
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "RetriableAFNetworking iOS Example/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.RetriableAFNetworking-iOS-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1799,7 +1834,10 @@
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "RetriableAFNetworking iOS Example/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.RetriableAFNetworking-iOS-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1815,7 +1853,11 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "RetriableAFNetworking watchOS Example Extension/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.RetriableAFNetworking-iOS-Example.watchkitapp.watchkitextension";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1834,7 +1876,11 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "RetriableAFNetworking watchOS Example Extension/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.RetriableAFNetworking-iOS-Example.watchkitapp.watchkitextension";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1890,7 +1936,10 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "RetriableAFNetworking tvOS Example/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.RetriableAFNetworking-tvOS-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1909,7 +1958,10 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "RetriableAFNetworking tvOS Example/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.RetriableAFNetworking-tvOS-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1930,7 +1982,10 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = N4WZ33Z6KM;
 				INFOPLIST_FILE = "RetriableAFNetworking macOS Example/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.RetriableAFNetworking-macOS-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1949,7 +2004,10 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = N4WZ33Z6KM;
 				INFOPLIST_FILE = "RetriableAFNetworking macOS Example/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.RetriableAFNetworking-macOS-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1964,7 +2022,11 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "RetriableAFNetworkingTests iOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.RetriableAFNetworkingTests-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1979,7 +2041,11 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "RetriableAFNetworkingTests iOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.RetriableAFNetworkingTests-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

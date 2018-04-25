@@ -22,7 +22,7 @@
     [super viewDidLoad];
     [RetriableOperation setLogEnabled:YES];
     self.sessionManager=[AFHTTPSessionManager manager];
-    [self.sessionManager GET:@"https://api.github.com/repos/emsihyo/RetriableAFNetworking/readme?n=v" headers:nil parameters:nil progress:nil success:^(NSURLSessionDataTask *task, id responseObject) {
+    [self.sessionManager GET:@"https://api.github.com/repos/emsihyo/RetriableAFNetworking/readme?n=v" headers:@{@"x-retriable-key":@"`1234567890-=\\][';/.~!@#$%^&*()_+|}{\":?><"} parameters:@{@"n1":@"v1"} progress:nil success:^(NSURLSessionDataTask *task, id responseObject) {
         NSLog(@"\nurl:%@\nheaders: %@",task.currentRequest.URL,[[task currentRequest] allHTTPHeaderFields]);
     } failure:^(NSURLSessionDataTask *task, NSError *error) {
         NSLog(@"\nurl:%@\nheaders: %@",task.currentRequest.URL,[[task currentRequest] allHTTPHeaderFields]);

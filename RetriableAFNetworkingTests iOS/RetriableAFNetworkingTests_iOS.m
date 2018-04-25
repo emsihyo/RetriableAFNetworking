@@ -28,16 +28,16 @@
 
 - (void)testExample {
     printf("\n\ntestExample start\n\n");
-    NSArray *us1=@[@"",@" ",@"/",@"//",@"https://www.google.com/"];
-    NSArray *us2=@[@"",@" ",@"?",@"??"];
+    NSArray *us1=@[@"",@" ",@"/",@"//",@"https://www.google.com/",@"free-http-header-key"];
+    NSArray *us2=@[@"",@" ",@"?",@"??",@"???"];
     NSArray *us3=@[@"",@" ",@"id",@"id=",@"id=1",@"id=1&",@"id=1&type",@"id=1&type=",@"id=1&type=1"];
-    NSArray *allHeaders=@[@{},@{@"x-retriable-key":@"`1234567890-=\\][';/.~!@#$%^&*()_+|}{\":?><"}];
+    NSArray *allHeaders=@[NSNull.null,@{},@{@"x-retriable-key":@"`1234567890-=\\][';/.~!@#$%^&*()_+|}{\":?><",@"free-http-url-key":@"free-http-header-key",@"free-http-header-key":@"free-http-header-key"}];
     for (NSString *u1 in us1){
         for (NSString *u2 in us2){
             for (NSString *u3 in us3){
-                for (NSDictionary * headers in allHeaders){
-                    NSString *url=[NSString stringWithFormat:@"%@%@%@",u1,u2,u3];
-                    XCTAssertTrue([self startWithURL:url headers:headers],@"failed");
+                NSString *url=[NSString stringWithFormat:@"%@%@%@",u1,u2,u3];
+                for (id  headers in allHeaders){
+                    XCTAssertTrue([self startWithURL:url headers:headers==NSNull.null?nil:headers],@"failed");
                 }
             }
         }
@@ -48,27 +48,17 @@
 }
 
 - (BOOL)startWithURL:(NSString *)originalURL headers:(NSDictionary*)originalHeaders{
-    NSString *encodedURL;
-    NSString *decodedURL;
+    NSString *encodedURL,*decodedURL;
     NSDictionary *decodedHeaders;
     free_http_headers_encode(originalURL, &encodedURL, originalHeaders);
     free_http_headers_decode(encodedURL, &decodedURL, &decodedHeaders);
-    printf("\noriginal     url:%s\
-            \ndecoded      url:%s\
-            \nencoded      url:%s\
-            \noriginal headers:%s\
-            \ndecoded  headers:%s\
-            \n",originalURL.UTF8String,decodedURL.UTF8String,encodedURL.UTF8String,[[originalHeaders description] stringByReplacingOccurrencesOfString:@"\n" withString:@" "].UTF8String,[[decodedHeaders description] stringByReplacingOccurrencesOfString:@"\n" withString:@" "].UTF8String);
-    if (originalURL.length==0){
-        return YES;
-    }
-    if (![originalURL isEqualToString:decodedURL]){
-        return NO;
-    }
-    if (originalHeaders.count==0){
-        return YES;
-    }
-    if (![originalHeaders isEqualToDictionary:decodedHeaders]){
+    if (![originalURL isEqualToString:decodedURL]||(originalHeaders&&![originalHeaders isEqualToDictionary:decodedHeaders])) {
+        printf("\noriginal     url:%s\
+                \ndecoded      url:%s\
+                \nencoded      url:%s\
+                \noriginal headers:%s\
+                \ndecoded  headers:%s\
+                \n",originalURL.UTF8String,decodedURL.UTF8String,encodedURL.UTF8String,[[originalHeaders description] stringByReplacingOccurrencesOfString:@"\n" withString:@" "].UTF8String,[[decodedHeaders description] stringByReplacingOccurrencesOfString:@"\n" withString:@" "].UTF8String);
         return NO;
     }
     return YES;

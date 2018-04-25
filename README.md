@@ -25,7 +25,7 @@ github "emsihyo/RetriableAFNetworking"
 #### Example
 
 ```objc
-[sessionManager GET:@"https://api.github.com/repos/emsihyo/RetriableAFNetworking/readme" parameters:nil progress:nil success:^(NSURLSessionDataTask *task, id responseObject) {
+[sessionManager GET:@"https://api.github.com/repos/emsihyo/RetriableAFNetworking/readme" headers:nil parameters:nil progress:nil success:^(NSURLSessionDataTask *task, id responseObject) {
 
 } failure:^(NSURLSessionDataTask *task, NSError *error) {
 

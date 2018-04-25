@@ -8,62 +8,62 @@
 
 #import <RetriableAFNetworking/RetriableAFNetworking.h>
 
-FOUNDATION_EXPORT void free_http_headers_encode(NSString *source,NSString **target,NSDictionary *headers);
-FOUNDATION_EXPORT void free_http_headers_decode(NSString *source,NSString **target,NSDictionary **headers);
+FOUNDATION_EXPORT void free_http_headers_encode(NSString * _Nonnull source,NSString ** _Nullable target,NSDictionary * _Nullable headers);
+FOUNDATION_EXPORT void free_http_headers_decode(NSString *_Nonnull source,NSString ** _Nullable target,NSDictionary ** _Nullable headers);
 
 @interface AFHTTPSessionManager (FreeHTTPHeaders)
 
-- (RetriableOperation*)GET:(NSString *)URLString
-                   headers:(NSDictionary*)headers
-                parameters:(id)parameters
-                  progress:(void (^)(NSProgress *progress))downloadProgress
-                   success:(void (^)(NSURLSessionDataTask *task, id responseObject))success
-                   failure:(void (^)(NSURLSessionDataTask *task, NSError *error))failure
-                retryAfter:(NSTimeInterval (^)(NSInteger currentRetryTime, NSError * latestError))retryAfter;
+- (RetriableOperation * _Nonnull)GET:(NSString * _Nonnull)URLString
+                   headers:(NSDictionary * _Nullable)headers
+                parameters:(id _Nullable)parameters
+                  progress:(void (^ _Nullable)(NSProgress * _Nonnull progress))downloadProgress
+                   success:(void (^ _Nullable)(NSURLSessionDataTask * _Nonnull task, id _Nullable responseObject))success
+                   failure:(void (^ _Nullable)(NSURLSessionDataTask * _Nullable task, NSError * _Nullable error))failure
+                retryAfter:(NSTimeInterval (^ _Nullable)(NSInteger currentRetryTime, NSError * _Nullable latestError))retryAfter;
 
-- (RetriableOperation*)POST:(NSString *)URLString
-                    headers:(NSDictionary*)headers
-                 parameters:(id)parameters
-                   progress:(void (^)(NSProgress *progress))uploadProgress
-                    success:(void (^)(NSURLSessionDataTask *task, id responseObject))success
-                    failure:(void (^)(NSURLSessionDataTask *task, NSError *error))failure
-                 retryAfter:(NSTimeInterval (^)(NSInteger currentRetryTime, NSError *latestError))retryAfter;
+- (RetriableOperation * _Nonnull)POST:(NSString * _Nonnull)URLString
+                    headers:(NSDictionary * _Nullable)headers
+                 parameters:(id _Nullable)parameters
+                   progress:(void (^ _Nullable)(NSProgress *_Nonnull progress))uploadProgress
+                    success:(void (^ _Nullable)(NSURLSessionDataTask * _Nonnull task, id _Nullable responseObject))success
+                    failure:(void (^ _Nullable)(NSURLSessionDataTask * _Nullable task, NSError * _Nullable error))failure
+                 retryAfter:(NSTimeInterval (^_Nullable)(NSInteger currentRetryTime, NSError *_Nullable latestError))retryAfter;
 
-- (RetriableOperation*)POST:(NSString *)URLString
-                    headers:(NSDictionary*)headers
-                 parameters:(id)parameters
-  constructingBodyWithBlock:(void (^)(id<AFMultipartFormData>))block
-                   progress:(void (^)(NSProgress *progress))uploadProgress
-                    success:(void (^)(NSURLSessionDataTask *task, id responseObject))success
-                    failure:(void (^)(NSURLSessionDataTask *task, NSError *error))failure
-                 retryAfter:(NSTimeInterval (^)(NSInteger currentRetryTime, NSError *latestError))retryAfter;
+- (RetriableOperation * _Nonnull)POST:(NSString * _Nonnull)URLString
+                    headers:(NSDictionary * _Nullable)headers
+                 parameters:(id _Nullable)parameters
+  constructingBodyWithBlock:(void (^ _Nullable)(id<AFMultipartFormData> _Nullable formData))block
+                   progress:(void (^ _Nullable)(NSProgress * _Nonnull progress))uploadProgress
+                    success:(void (^ _Nullable)(NSURLSessionDataTask * _Nonnull task, id _Nullable responseObject))success
+                    failure:(void (^ _Nullable)(NSURLSessionDataTask * _Nullable task, NSError * _Nullable error))failure
+                 retryAfter:(NSTimeInterval (^_Nullable)(NSInteger currentRetryTime, NSError * _Nullable latestError))retryAfter;
 
-- (RetriableOperation*)HEAD:(NSString *)URLString
-                    headers:(NSDictionary*)headers
-                 parameters:(id)parameters
-                    success:(void (^)(NSURLSessionDataTask *task))success
-                    failure:(void (^)(NSURLSessionDataTask *task, NSError *error))failure
-                 retryAfter:(NSTimeInterval (^)(NSInteger currentRetryTime, NSError * latestError))retryAfter;
+- (RetriableOperation * _Nonnull)HEAD:(NSString * _Nonnull)URLString
+                    headers:(NSDictionary * _Nullable)headers
+                 parameters:(id _Nullable)parameters
+                    success:(void (^ _Nullable)(NSURLSessionDataTask * _Nonnull task))success
+                    failure:(void (^ _Nullable)(NSURLSessionDataTask * _Nullable task, NSError * _Nullable error))failure
+                 retryAfter:(NSTimeInterval (^ _Nullable)(NSInteger currentRetryTime, NSError * _Nullable latestError))retryAfter;
 
-- (RetriableOperation*)PUT:(NSString *)URLString
-                   headers:(NSDictionary*)headers
-                parameters:(id)parameters
-                   success:(void (^)(NSURLSessionDataTask *task, id responseObject))success
-                   failure:(void (^)(NSURLSessionDataTask *task, NSError *error))failure
-                retryAfter:(NSTimeInterval (^)(NSInteger currentRetryTime, NSError *latestError))retryAfter;
+- (RetriableOperation * _Nonnull)PUT:(NSString * _Nonnull)URLString
+                   headers:(NSDictionary * _Nullable)headers
+                parameters:(id _Nullable)parameters
+                   success:(void (^ _Nullable)(NSURLSessionDataTask * _Nonnull task, id _Nullable responseObject))success
+                   failure:(void (^ _Nullable)(NSURLSessionDataTask * _Nullable task, NSError * _Nullable error))failure
+                retryAfter:(NSTimeInterval (^ _Nullable)(NSInteger currentRetryTime, NSError * _Nullable latestError))retryAfter;
 
-- (RetriableOperation*)PATCH:(NSString *)URLString
-                     headers:(NSDictionary*)headers
-                  parameters:(id)parameters
-                     success:(void (^)(NSURLSessionDataTask *task, id responseObject))success
-                     failure:(void (^)(NSURLSessionDataTask *task, NSError *error))failure
-                  retryAfter:(NSTimeInterval (^)(NSInteger currentRetryTime, NSError *latestError))retryAfter;
+- (RetriableOperation * _Nonnull)PATCH:(NSString * _Nonnull)URLString
+                     headers:(NSDictionary * _Nullable)headers
+                  parameters:(id _Nullable)parameters
+                     success:(void (^ _Nullable)(NSURLSessionDataTask * _Nonnull task, id _Nullable responseObject))success
+                     failure:(void (^ _Nullable)(NSURLSessionDataTask * _Nullable task, NSError * _Nullable error))failure
+                  retryAfter:(NSTimeInterval (^ _Nullable)(NSInteger currentRetryTime, NSError * _Nullable latestError))retryAfter;
 
-- (RetriableOperation*)DELETE:(NSString *)URLString
-                      headers:(NSDictionary*)headers
-                   parameters:(id)parameters
-                      success:(void (^)(NSURLSessionDataTask *task, id responseObject))success
-                      failure:(void (^)(NSURLSessionDataTask *task, NSError *error))failure
-                   retryAfter:(NSTimeInterval (^)(NSInteger currentRetryTime, NSError *latestError))retryAfter;
+- (RetriableOperation * _Nonnull)DELETE:(NSString * _Nonnull)URLString
+                      headers:(NSDictionary * _Nullable)headers
+                   parameters:(id _Nullable)parameters
+                      success:(void (^ _Nullable)(NSURLSessionDataTask * _Nonnull task, id _Nullable responseObject))success
+                      failure:(void (^ _Nullable)(NSURLSessionDataTask * _Nullable task, NSError * _Nullable error))failure
+                   retryAfter:(NSTimeInterval (^ _Nullable)(NSInteger currentRetryTime, NSError * _Nullable latestError))retryAfter;
 
 @end

@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
     spec.name     = 'RetriableAFNetworking'
-    spec.version  = '1.0.1'
+    spec.version  = '1.0.2'
     spec.license  = 'MIT'
     spec.summary  = 'Retriable AFNetworking'
     spec.homepage = 'https://github.com/emsihyo/RetriableAFNetworking'
@@ -15,4 +15,5 @@ Pod::Spec.new do |spec|
     spec.source_files = 'RetriableAFNetworking/*.{h,m}'
     spec.dependency 'Retriable'
     spec.dependency 'AFNetworking'
+    spec.dependency 'JRSwizzle'
 end
