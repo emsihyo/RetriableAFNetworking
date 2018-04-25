@@ -20,10 +20,10 @@ before_install:
 
 script:
     - set -o pipefail
-    - xcodebuild clean build -workspace RetriableAFNetworking.xcworkspace -scheme 'RetriableAFNetworking iOS' -sdk iphonesimulator PLATFORM_NAME=iphonesimulator -configuration Debug | xcpretty
-    - xcodebuild clean build -workspace RetriableAFNetworking.xcworkspace -scheme 'RetriableAFNetworking iOS Example' -sdk iphonesimulator PLATFORM_NAME=iphonesimulator -configuration Debug | xcpretty
+    - xcodebuild clean build -workspace RetriableAFNetworking.xcworkspace -scheme 'RetriableAFNetworking iOS' -sdk iphonesimulator -configuration Debug | xcpretty
+    - xcodebuild clean build -workspace RetriableAFNetworking.xcworkspace -scheme 'RetriableAFNetworking iOS Example' -destination 'name=iPhone 8 Plus' -configuration Debug | xcpretty
     - xcodebuild clean build -workspace RetriableAFNetworking.xcworkspace -scheme 'RetriableAFNetworking watchOS' -sdk watchsimulator -configuration Debug | xcpretty
-    - xcodebuild clean build -workspace RetriableAFNetworking.xcworkspace -scheme 'RetriableAFNetworking watchOS Example' -sdk watchsimulator -configuration Debug | xcpretty
+    - xcodebuild clean build -workspace RetriableAFNetworking.xcworkspace -scheme 'RetriableAFNetworking watchOS Example' -destination 'name=Apple Watch Series 3 - 42mm' -configuration Debug | xcpretty
     - xcodebuild clean build -workspace RetriableAFNetworking.xcworkspace -scheme 'RetriableAFNetworking tvOS'  -sdk appletvsimulator -configuration Debug | xcpretty
     - xcodebuild clean build -workspace RetriableAFNetworking.xcworkspace -scheme 'RetriableAFNetworking tvOS Example'  -sdk appletvsimulator -configuration Debug | xcpretty
     - xcodebuild clean build -workspace RetriableAFNetworking.xcworkspace -scheme 'RetriableAFNetworking macOS' -sdk macosx -configuration Debug | xcpretty

@@ -12,6 +12,7 @@
 #import "AFJSONRequestSerializer+FreeHTTPHeaders.h"
 
 @implementation AFPropertyListRequestSerializer (FreeHTTPHeaders)
+
 - (NSURLRequest *)free_http_headers_requestBySerializingRequest:(NSURLRequest *)req withParameters:(nullable id)parameters error:(NSError * _Nullable __autoreleasing *)error{
     NSMutableURLRequest *request=[req mutableCopy];
     NSString *target;NSDictionary *headers;
@@ -24,4 +25,5 @@
 + (void)load{
     [self jr_swizzleMethod:@selector(requestBySerializingRequest:withParameters:error:) withMethod:@selector(free_http_headers_requestBySerializingRequest:withParameters:error:) error:nil];
 }
+
 @end

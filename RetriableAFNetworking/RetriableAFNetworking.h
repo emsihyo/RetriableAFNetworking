@@ -8,7 +8,6 @@
 
 #import <RetriableAFNetworking/AFHTTPSessionManager+Retriable.h>
 #import <RetriableAFNetworking/AFHTTPSessionManager+FreeHTTPHeaders.h>
-
 //! Project version number for RetriableAFNetworking.
 FOUNDATION_EXPORT double RetriableAFNetworkingVersionNumber;
 

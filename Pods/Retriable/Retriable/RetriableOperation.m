@@ -7,6 +7,7 @@
 //
 #import <Foundation/Foundation.h>
 #import "RetriableOperation.h"
+
 #if TARGET_OS_IOS || TARGET_OS_TV
 #define RETRIABLE_UIKIT 1
 #endif
@@ -66,7 +67,7 @@ static inline void retriable_log(NSString *log){
                             cancel:(void(^)(void))cancel
            cancelledErrorTemplates:(NSArray<NSError*>*)cancelledErrorTemplates{
     self=[super init];
-    if (!self) return self;
+    if (!self) return nil;
     self.lock=[[NSRecursiveLock alloc]init];
     self.retryAfter = retryAfter;
     self._completion =completion;
