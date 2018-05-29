@@ -93,6 +93,14 @@
 		0A669B9E208B741100670341 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A669B9D208B741100670341 /* main.m */; };
 		0A77EDEC208F8AD900277C74 /* RetriableAFNetworkingTests_iOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A77EDEB208F8AD900277C74 /* RetriableAFNetworkingTests_iOS.m */; };
 		0A77EDEE208F8AD900277C74 /* RetriableAFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A5CF5E72088DD3800106219 /* RetriableAFNetworking.framework */; };
+		0A7C27E920999FAC008B973E /* AFURLSessionManager+Retriable.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A7C27E720999FAC008B973E /* AFURLSessionManager+Retriable.h */; };
+		0A7C27EA20999FAC008B973E /* AFURLSessionManager+Retriable.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A7C27E720999FAC008B973E /* AFURLSessionManager+Retriable.h */; };
+		0A7C27EB20999FAC008B973E /* AFURLSessionManager+Retriable.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A7C27E720999FAC008B973E /* AFURLSessionManager+Retriable.h */; };
+		0A7C27EC20999FAC008B973E /* AFURLSessionManager+Retriable.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A7C27E720999FAC008B973E /* AFURLSessionManager+Retriable.h */; };
+		0A7C27ED20999FAC008B973E /* AFURLSessionManager+Retriable.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7C27E820999FAC008B973E /* AFURLSessionManager+Retriable.m */; };
+		0A7C27EE20999FAC008B973E /* AFURLSessionManager+Retriable.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7C27E820999FAC008B973E /* AFURLSessionManager+Retriable.m */; };
+		0A7C27EF20999FAC008B973E /* AFURLSessionManager+Retriable.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7C27E820999FAC008B973E /* AFURLSessionManager+Retriable.m */; };
+		0A7C27F020999FAC008B973E /* AFURLSessionManager+Retriable.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7C27E820999FAC008B973E /* AFURLSessionManager+Retriable.m */; };
 		0D65D708AB64BE2B085ECEB3 /* Pods_RetriableAFNetworking_macOS_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DEBAB477A8B68A342900B18 /* Pods_RetriableAFNetworking_macOS_Example.framework */; };
 		0DDAB86D95A95C647889D6A7 /* Pods_RetriableAFNetworking_watchOS_Example_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E1405999CD530E8DAFD79D /* Pods_RetriableAFNetworking_watchOS_Example_Extension.framework */; };
 		1E3245C2C1B22FD5623E19DE /* Pods_RetriableAFNetworking_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F54527AE00B5EDF5292DA825 /* Pods_RetriableAFNetworking_tvOS.framework */; };
@@ -293,6 +301,8 @@
 		0A77EDE9208F8AD900277C74 /* RetriableAFNetworkingTests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RetriableAFNetworkingTests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A77EDEB208F8AD900277C74 /* RetriableAFNetworkingTests_iOS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RetriableAFNetworkingTests_iOS.m; sourceTree = "<group>"; };
 		0A77EDED208F8AD900277C74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A7C27E720999FAC008B973E /* AFURLSessionManager+Retriable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AFURLSessionManager+Retriable.h"; sourceTree = "<group>"; };
+		0A7C27E820999FAC008B973E /* AFURLSessionManager+Retriable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AFURLSessionManager+Retriable.m"; sourceTree = "<group>"; };
 		0AFEF850208B8FBC00D6FEC4 /* RetriableAFNetworking.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = RetriableAFNetworking.podspec; sourceTree = SOURCE_ROOT; };
 		0AFEF851208B8FBC00D6FEC4 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
 		0AFEF852208B8FBC00D6FEC4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
@@ -474,16 +484,18 @@
 			isa = PBXGroup;
 			children = (
 				0A4F501C208F27E5004A6456 /* .travis.yml */,
-				0A4F4FF8208F24E9004A6456 /* AFHTTPSessionManager+FreeHTTPHeaders.h */,
-				0A4F4FFB208F24E9004A6456 /* AFHTTPSessionManager+FreeHTTPHeaders.m */,
 				0A4F4FF7208F24E9004A6456 /* AFHTTPRequestSerializer+FreeHTTPHeaders.h */,
 				0A4F4FF5208F24E8004A6456 /* AFHTTPRequestSerializer+FreeHTTPHeaders.m */,
+				0A4F4FF8208F24E9004A6456 /* AFHTTPSessionManager+FreeHTTPHeaders.h */,
+				0A4F4FFB208F24E9004A6456 /* AFHTTPSessionManager+FreeHTTPHeaders.m */,
+				0A5CF6172088DDFA00106219 /* AFHTTPSessionManager+Retriable.h */,
+				0A5CF6132088DDF900106219 /* AFHTTPSessionManager+Retriable.m */,
 				0A4F4FFA208F24E9004A6456 /* AFJSONRequestSerializer+FreeHTTPHeaders.h */,
 				0A4F4FF4208F24E8004A6456 /* AFJSONRequestSerializer+FreeHTTPHeaders.m */,
 				0A4F4FF6208F24E9004A6456 /* AFPropertyListRequestSerializer+FreeHTTPHeaders.h */,
 				0A4F4FF9208F24E9004A6456 /* AFPropertyListRequestSerializer+FreeHTTPHeaders.m */,
-				0A5CF6172088DDFA00106219 /* AFHTTPSessionManager+Retriable.h */,
-				0A5CF6132088DDF900106219 /* AFHTTPSessionManager+Retriable.m */,
+				0A7C27E720999FAC008B973E /* AFURLSessionManager+Retriable.h */,
+				0A7C27E820999FAC008B973E /* AFURLSessionManager+Retriable.m */,
 				0A5CF5EB2088DD3800106219 /* Info.plist */,
 				0AFEF851208B8FBC00D6FEC4 /* LICENSE */,
 				0AFEF852208B8FBC00D6FEC4 /* README.md */,
@@ -602,6 +614,7 @@
 				0A5CF61F2088DDFA00106219 /* AFHTTPSessionManager+Retriable.h in Headers */,
 				0A4F5008208F24E9004A6456 /* AFHTTPRequestSerializer+FreeHTTPHeaders.h in Headers */,
 				0A4F500C208F24E9004A6456 /* AFHTTPSessionManager+FreeHTTPHeaders.h in Headers */,
+				0A7C27E920999FAC008B973E /* AFURLSessionManager+Retriable.h in Headers */,
 				0A4F5014208F24E9004A6456 /* AFJSONRequestSerializer+FreeHTTPHeaders.h in Headers */,
 				0A5CF61C2088DDFA00106219 /* RetriableAFNetworkingResponse.h in Headers */,
 				0A4F5004208F24E9004A6456 /* AFPropertyListRequestSerializer+FreeHTTPHeaders.h in Headers */,
@@ -616,6 +629,7 @@
 				0A669B25208B734E00670341 /* RetriableAFNetworking.h in Headers */,
 				0A4F5009208F24E9004A6456 /* AFHTTPRequestSerializer+FreeHTTPHeaders.h in Headers */,
 				0A4F500D208F24E9004A6456 /* AFHTTPSessionManager+FreeHTTPHeaders.h in Headers */,
+				0A7C27EA20999FAC008B973E /* AFURLSessionManager+Retriable.h in Headers */,
 				0A4F5015208F24E9004A6456 /* AFJSONRequestSerializer+FreeHTTPHeaders.h in Headers */,
 				0A669B26208B734E00670341 /* RetriableAFNetworkingResponse.h in Headers */,
 				0A4F5005208F24E9004A6456 /* AFPropertyListRequestSerializer+FreeHTTPHeaders.h in Headers */,
@@ -630,6 +644,7 @@
 				0A669B2A208B734E00670341 /* RetriableAFNetworking.h in Headers */,
 				0A4F500A208F24E9004A6456 /* AFHTTPRequestSerializer+FreeHTTPHeaders.h in Headers */,
 				0A4F500E208F24E9004A6456 /* AFHTTPSessionManager+FreeHTTPHeaders.h in Headers */,
+				0A7C27EB20999FAC008B973E /* AFURLSessionManager+Retriable.h in Headers */,
 				0A4F5016208F24E9004A6456 /* AFJSONRequestSerializer+FreeHTTPHeaders.h in Headers */,
 				0A669B2B208B734E00670341 /* RetriableAFNetworkingResponse.h in Headers */,
 				0A4F5006208F24E9004A6456 /* AFPropertyListRequestSerializer+FreeHTTPHeaders.h in Headers */,
@@ -644,6 +659,7 @@
 				0A669B2F208B734F00670341 /* RetriableAFNetworking.h in Headers */,
 				0A4F500B208F24E9004A6456 /* AFHTTPRequestSerializer+FreeHTTPHeaders.h in Headers */,
 				0A4F500F208F24E9004A6456 /* AFHTTPSessionManager+FreeHTTPHeaders.h in Headers */,
+				0A7C27EC20999FAC008B973E /* AFURLSessionManager+Retriable.h in Headers */,
 				0A4F5017208F24E9004A6456 /* AFJSONRequestSerializer+FreeHTTPHeaders.h in Headers */,
 				0A669B30208B734F00670341 /* RetriableAFNetworkingResponse.h in Headers */,
 				0A4F5007208F24E9004A6456 /* AFPropertyListRequestSerializer+FreeHTTPHeaders.h in Headers */,
@@ -1301,6 +1317,7 @@
 				0A5CF61B2088DDFA00106219 /* AFHTTPSessionManager+Retriable.m in Sources */,
 				0A4F5010208F24E9004A6456 /* AFPropertyListRequestSerializer+FreeHTTPHeaders.m in Sources */,
 				0A4F5018208F24E9004A6456 /* AFHTTPSessionManager+FreeHTTPHeaders.m in Sources */,
+				0A7C27ED20999FAC008B973E /* AFURLSessionManager+Retriable.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1314,6 +1331,7 @@
 				0A669B24208B734E00670341 /* AFHTTPSessionManager+Retriable.m in Sources */,
 				0A4F5011208F24E9004A6456 /* AFPropertyListRequestSerializer+FreeHTTPHeaders.m in Sources */,
 				0A4F5019208F24E9004A6456 /* AFHTTPSessionManager+FreeHTTPHeaders.m in Sources */,
+				0A7C27EE20999FAC008B973E /* AFURLSessionManager+Retriable.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1327,6 +1345,7 @@
 				0A669B29208B734E00670341 /* AFHTTPSessionManager+Retriable.m in Sources */,
 				0A4F5012208F24E9004A6456 /* AFPropertyListRequestSerializer+FreeHTTPHeaders.m in Sources */,
 				0A4F501A208F24E9004A6456 /* AFHTTPSessionManager+FreeHTTPHeaders.m in Sources */,
+				0A7C27EF20999FAC008B973E /* AFURLSessionManager+Retriable.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1340,6 +1359,7 @@
 				0A669B2E208B734F00670341 /* AFHTTPSessionManager+Retriable.m in Sources */,
 				0A4F5013208F24E9004A6456 /* AFPropertyListRequestSerializer+FreeHTTPHeaders.m in Sources */,
 				0A4F501B208F24E9004A6456 /* AFHTTPSessionManager+FreeHTTPHeaders.m in Sources */,
+				0A7C27F020999FAC008B973E /* AFURLSessionManager+Retriable.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

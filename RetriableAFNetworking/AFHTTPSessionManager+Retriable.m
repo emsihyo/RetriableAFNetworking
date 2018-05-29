@@ -10,16 +10,9 @@
 
 #import "AFHTTPSessionManager+Retriable.h"
 #import "RetriableAFNetworkingResponse.h"
+#import "AFURLSessionManager+Retriable.h"
 
 @implementation AFHTTPSessionManager (Retriable)
-
-- (NSOperationQueue*)retriable_operationQueue{
-    NSOperationQueue *queue=objc_getAssociatedObject(self,@selector(retriable_operationQueue));
-    if (queue) return queue;
-    queue=[[NSOperationQueue alloc]init];
-    objc_setAssociatedObject(self,@selector(retriable_operationQueue),queue,OBJC_ASSOCIATION_RETAIN_NONATOMIC);
-    return queue;
-}
 
 - (RetriableOperation*)GET:(NSString *)URLString parameters:(id)parameters progress:(void (^)(NSProgress *))downloadProgress success:(void (^)(NSURLSessionDataTask *,id))success failure:(void (^)(NSURLSessionDataTask *,NSError *))failure retryAfter:(NSTimeInterval(^)(NSInteger currentRetryTime,NSError *latestError))retryAfter{
     __block NSURLSessionDataTask *task;
@@ -32,10 +25,10 @@
         }
     } retryAfter:retryAfter start:^(void (^completion)(RetriableAFNetworkingResponse *response,NSError *error)) {
         task=[weakSelf GET:URLString parameters:parameters progress:downloadProgress success:^(NSURLSessionDataTask * task,id  responseObject) {
-            RetriableAFNetworkingResponse *response=[[RetriableAFNetworkingResponse alloc]initWithURLSessionDataTask:task responseObject:responseObject];
+            RetriableAFNetworkingResponse *response=[[RetriableAFNetworkingResponse alloc]initWithURLSessionDataTask:task response:nil responseObject:responseObject];
             completion(response,nil);
         } failure:^(NSURLSessionDataTask * task,NSError * error) {
-            RetriableAFNetworkingResponse *response=[[RetriableAFNetworkingResponse alloc]initWithURLSessionDataTask:task responseObject:nil];
+            RetriableAFNetworkingResponse *response=[[RetriableAFNetworkingResponse alloc]initWithURLSessionDataTask:task response:nil responseObject:nil];
             completion(response,error);
         }];
     } cancel:^ {
@@ -58,10 +51,10 @@
         }
     } retryAfter:retryAfter start:^(void (^completion)(RetriableAFNetworkingResponse *response,NSError *error)) {
         task=[weakSelf POST:URLString parameters:parameters progress:uploadProgress success:^(NSURLSessionDataTask * task,id  responseObject) {
-            RetriableAFNetworkingResponse *response=[[RetriableAFNetworkingResponse alloc]initWithURLSessionDataTask:task responseObject:responseObject];
+            RetriableAFNetworkingResponse *response=[[RetriableAFNetworkingResponse alloc]initWithURLSessionDataTask:task response:nil responseObject:responseObject];
             completion(response,nil);
         } failure:^(NSURLSessionDataTask * task,NSError * error) {
-            RetriableAFNetworkingResponse *response=[[RetriableAFNetworkingResponse alloc]initWithURLSessionDataTask:task responseObject:nil];
+            RetriableAFNetworkingResponse *response=[[RetriableAFNetworkingResponse alloc]initWithURLSessionDataTask:task response:nil responseObject:nil];
             completion(response,error);
         }];
     } cancel:^{
@@ -84,10 +77,10 @@
         }
     } retryAfter:retryAfter start:^(void (^completion)(RetriableAFNetworkingResponse *response,NSError *error)) {
         task=[weakSelf POST:URLString parameters:parameters constructingBodyWithBlock:block progress:uploadProgress success:^(NSURLSessionDataTask * task,id  responseObject) {
-            RetriableAFNetworkingResponse *response=[[RetriableAFNetworkingResponse alloc]initWithURLSessionDataTask:task responseObject:responseObject];
+            RetriableAFNetworkingResponse *response=[[RetriableAFNetworkingResponse alloc]initWithURLSessionDataTask:task response:nil responseObject:responseObject];
             completion(response,nil);
         } failure:^(NSURLSessionDataTask * task,NSError * error) {
-            RetriableAFNetworkingResponse *response=[[RetriableAFNetworkingResponse alloc]initWithURLSessionDataTask:task responseObject:nil];
+            RetriableAFNetworkingResponse *response=[[RetriableAFNetworkingResponse alloc]initWithURLSessionDataTask:task response:nil responseObject:nil];
             completion(response,error);
         }];
     } cancel:^{
@@ -110,10 +103,10 @@
         }
     } retryAfter:retryAfter start:^(void (^completion)(RetriableAFNetworkingResponse *response,NSError *error)) {
         task=[weakSelf HEAD:URLString parameters:parameters success:^(NSURLSessionDataTask * task) {
-            RetriableAFNetworkingResponse *response=[[RetriableAFNetworkingResponse alloc]initWithURLSessionDataTask:task responseObject:nil];
+            RetriableAFNetworkingResponse *response=[[RetriableAFNetworkingResponse alloc]initWithURLSessionDataTask:task response:nil responseObject:nil];
             completion(response,nil);
         } failure:^(NSURLSessionDataTask * task,NSError * error) {
-            RetriableAFNetworkingResponse *response=[[RetriableAFNetworkingResponse alloc]initWithURLSessionDataTask:task responseObject:nil];
+            RetriableAFNetworkingResponse *response=[[RetriableAFNetworkingResponse alloc]initWithURLSessionDataTask:task response:nil responseObject:nil];
             completion(response,error);
         }];
     } cancel:^{
@@ -136,10 +129,10 @@
         }
     } retryAfter:retryAfter start:^(void (^completion)(RetriableAFNetworkingResponse *response,NSError *error)) {
         task=[weakSelf PUT:URLString parameters:parameters success:^(NSURLSessionDataTask * task,id  responseObject) {
-            RetriableAFNetworkingResponse *response=[[RetriableAFNetworkingResponse alloc]initWithURLSessionDataTask:task responseObject:responseObject];
+            RetriableAFNetworkingResponse *response=[[RetriableAFNetworkingResponse alloc]initWithURLSessionDataTask:task response:nil responseObject:responseObject];
             completion(response,nil);
         } failure:^(NSURLSessionDataTask * task,NSError * error) {
-            RetriableAFNetworkingResponse *response=[[RetriableAFNetworkingResponse alloc]initWithURLSessionDataTask:task responseObject:nil];
+            RetriableAFNetworkingResponse *response=[[RetriableAFNetworkingResponse alloc]initWithURLSessionDataTask:task response:nil responseObject:nil];
             completion(response,error);
         }];
     } cancel:^{
@@ -162,10 +155,10 @@
         }
     } retryAfter:retryAfter start:^(void (^completion)(RetriableAFNetworkingResponse *response,NSError *error)) {
         task=[weakSelf PATCH:URLString parameters:parameters success:^(NSURLSessionDataTask * task,id  responseObject) {
-            RetriableAFNetworkingResponse *response=[[RetriableAFNetworkingResponse alloc]initWithURLSessionDataTask:task responseObject:responseObject];
+            RetriableAFNetworkingResponse *response=[[RetriableAFNetworkingResponse alloc]initWithURLSessionDataTask:task response:nil responseObject:responseObject];
             completion(response,nil);
         } failure:^(NSURLSessionDataTask * task,NSError * error) {
-            RetriableAFNetworkingResponse *response=[[RetriableAFNetworkingResponse alloc]initWithURLSessionDataTask:task responseObject:nil];
+            RetriableAFNetworkingResponse *response=[[RetriableAFNetworkingResponse alloc]initWithURLSessionDataTask:task response:nil responseObject:nil];
             completion(response,error);
         }];
     } cancel:^{
@@ -188,10 +181,10 @@
         }
     } retryAfter:retryAfter start:^(void (^completion)(RetriableAFNetworkingResponse *response,NSError *error)) {
         task=[weakSelf DELETE:URLString parameters:parameters success:^(NSURLSessionDataTask * task,id  responseObject) {
-            RetriableAFNetworkingResponse *response=[[RetriableAFNetworkingResponse alloc]initWithURLSessionDataTask:task responseObject:responseObject];
+            RetriableAFNetworkingResponse *response=[[RetriableAFNetworkingResponse alloc]initWithURLSessionDataTask:task response:nil responseObject:responseObject];
             completion(response,nil);
         } failure:^(NSURLSessionDataTask * task,NSError * error) {
-            RetriableAFNetworkingResponse *response=[[RetriableAFNetworkingResponse alloc]initWithURLSessionDataTask:task responseObject:nil];
+            RetriableAFNetworkingResponse *response=[[RetriableAFNetworkingResponse alloc]initWithURLSessionDataTask:task response:nil responseObject:nil];
             completion(response,error);
         }];
     } cancel:^{

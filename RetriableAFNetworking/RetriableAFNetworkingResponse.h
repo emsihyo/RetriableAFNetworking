@@ -11,8 +11,9 @@
 @interface RetriableAFNetworkingResponse : NSObject
 
 @property (readonly) NSURLSessionDataTask *URLSessionDataTask;
+@property (readonly) NSURLResponse        *response;
 @property (readonly) id                   responseObject;
 
-- (instancetype)initWithURLSessionDataTask:(NSURLSessionDataTask*)URLSessionDataTask responseObject:(id)responseObject;
+- (instancetype)initWithURLSessionDataTask:(NSURLSessionDataTask*)URLSessionDataTask response:(NSURLResponse*)response responseObject:(id)responseObject;
 
 @end

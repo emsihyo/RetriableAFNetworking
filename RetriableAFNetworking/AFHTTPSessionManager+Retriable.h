@@ -11,8 +11,6 @@
 
 @interface AFHTTPSessionManager (Retriable)
 
-@property (readonly) NSOperationQueue * _Nonnull retriable_operationQueue;
-
 - (RetriableOperation * _Nullable)GET:(NSString * _Nonnull)URLString
                 parameters:(id _Nullable)parameters
                   progress:(void (^ _Nullable)(NSProgress * _Nonnull progress))downloadProgress
