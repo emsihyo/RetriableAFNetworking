@@ -1,11 +1,11 @@
 Pod::Spec.new do |spec|
     spec.name     = 'RetriableAFNetworking'
-    spec.version  = '1.0.2'
+    spec.version  = '1.0.3'
     spec.license  = 'MIT'
     spec.summary  = 'Retriable AFNetworking'
-    spec.homepage = 'https://github.com/emsihyo/RetriableAFNetworking'
-    spec.author   = { 'emsihyo' => 'emsihyo@gmail.com' }
-    spec.source   = { :git => 'https://github.com/emsihyo/RetriableAFNetworking.git',:tag => "#{spec.version}" }
+    spec.homepage = 'https://github.com/retriable/RetriableAFNetworking'
+    spec.author   = { 'retriable' => 'retriable@retriable.com' }
+    spec.source   = { :git => 'https://github.com/retriable/RetriableAFNetworking.git',:tag => "#{spec.version}" }
     spec.description = 'Retriable AFNetworking.'
     spec.requires_arc = true
     spec.ios.deployment_target = '8.0'

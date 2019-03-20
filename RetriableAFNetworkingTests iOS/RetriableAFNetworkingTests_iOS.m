@@ -2,8 +2,8 @@
 //  RetriableAFNetworkingTests_iOS.m
 //  RetriableAFNetworkingTests iOS
 //
-//  Created by emsihyo on 2018/4/24.
-//  Copyright © 2018年 emsihyo. All rights reserved.
+//  Created by retriable on 2018/4/24.
+//  Copyright © 2018年 retriable. All rights reserved.
 //
 
 @import RetriableAFNetworking;

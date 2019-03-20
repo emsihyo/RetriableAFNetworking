@@ -25,7 +25,7 @@
 		<key>NSExtensionAttributes</key>
 		<dict>
 			<key>WKAppBundleIdentifier</key>
-			<string>com.emsihyo.RetriableAFNetworking-iOS-Example.watchkitapp</string>
+			<string>com.retriable.RetriableAFNetworking-iOS-Example.watchkitapp</string>
 		</dict>
 		<key>NSExtensionPointIdentifier</key>
 		<string>com.apple.watchkit</string>

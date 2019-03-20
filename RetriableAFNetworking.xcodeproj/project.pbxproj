@@ -876,7 +876,7 @@
 		0A5CF5DE2088DD3800106219 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = emsihyo;
 				TargetAttributes = {
 					0A234EB22090A30200DBCD50 = {
@@ -1689,7 +1689,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D64A0C7F6C0CEF92B5E1F583 /* Pods-RetriableAFNetworking iOS.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
@@ -1716,7 +1716,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D7272CAAB0E64DC020E1FC5F /* Pods-RetriableAFNetworking iOS.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
@@ -1744,7 +1744,7 @@
 			baseConfigurationReference = 3CF813FEB198ACFDACDEA971 /* Pods-RetriableAFNetworking watchOS.debug.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
@@ -1773,7 +1773,7 @@
 			baseConfigurationReference = 4C5106C6C80843902D4CC82F /* Pods-RetriableAFNetworking watchOS.release.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
@@ -1857,7 +1857,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CBE05EC77B72E343A13F974E /* Pods-RetriableAFNetworking macOS.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -1886,7 +1886,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3E32738667CD58EB0EC4602C /* Pods-RetriableAFNetworking macOS.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;

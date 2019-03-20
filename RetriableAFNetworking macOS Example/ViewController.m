@@ -2,8 +2,8 @@
 //  ViewController.m
 //  RetriableAFNetworking macOS Example
 //
-//  Created by emsihyo on 2018/4/21.
-//  Copyright © 2018年 emsihyo. All rights reserved.
+//  Created by retriable on 2018/4/21.
+//  Copyright © 2018年 retriable. All rights reserved.
 //
 @import Retriable;
 @import RetriableAFNetworking;
@@ -17,7 +17,7 @@
 
     [RetriableOperation setLogEnabled:YES];
     self.sessionManager=[AFHTTPSessionManager manager];
-    [self.sessionManager GET:@"https://api.github.com/repos/emsihyo/RetriableAFNetworking/readme?n=v" headers:@{@"x-retriable-key":@"`1234567890-=\\][';/.~!@#$%^&*()_+|}{\":?><"} parameters:@{@"n1":@"v1"} progress:nil success:^(NSURLSessionDataTask *task, id responseObject) {
+    [self.sessionManager GET:@"https://api.github.com/repos/retriable/RetriableAFNetworking/readme?n=v" headers:@{@"x-retriable-key":@"`1234567890-=\\][';/.~!@#$%^&*()_+|}{\":?><"} parameters:@{@"n1":@"v1"} progress:nil success:^(NSURLSessionDataTask *task, id responseObject) {
         NSLog(@"\nurl:%@\nheaders: %@",task.currentRequest.URL,[[task currentRequest] allHTTPHeaderFields]);
     } failure:^(NSURLSessionDataTask *task, NSError *error) {
         NSLog(@"\nurl:%@\nheaders: %@",task.currentRequest.URL,[[task currentRequest] allHTTPHeaderFields]);
