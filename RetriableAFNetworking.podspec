@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
     spec.name     = 'RetriableAFNetworking'
-    spec.version  = '1.0.3'
+    spec.version  = '1.0.4'
     spec.license  = 'MIT'
     spec.summary  = 'Retriable AFNetworking'
     spec.homepage = 'https://github.com/retriable/RetriableAFNetworking'

@@ -1498,7 +1498,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.RetriableAFNetworking-iOS-Example.watchkitapp.watchkitextension";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.retriable.RetriableAFNetworking-iOS-Example.watchkitapp.watchkitextension";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
@@ -1521,7 +1521,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.RetriableAFNetworking-iOS-Example.watchkitapp.watchkitextension";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.retriable.RetriableAFNetworking-iOS-Example.watchkitapp.watchkitextension";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
@@ -1540,7 +1540,7 @@
 				DEVELOPMENT_TEAM = "";
 				IBSC_MODULE = RetriableAFNetworking_watchOS_Example_Extension;
 				INFOPLIST_FILE = "RetriableAFNetworking watchOS Example/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.RetriableAFNetworking-iOS-Example.watchkitapp";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.retriable.RetriableAFNetworking-iOS-Example.watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
@@ -1559,7 +1559,7 @@
 				DEVELOPMENT_TEAM = "";
 				IBSC_MODULE = RetriableAFNetworking_watchOS_Example_Extension;
 				INFOPLIST_FILE = "RetriableAFNetworking watchOS Example/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.RetriableAFNetworking-iOS-Example.watchkitapp";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.retriable.RetriableAFNetworking-iOS-Example.watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
@@ -1704,7 +1704,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.emsihyo.RetriableAFNetworking;
+				PRODUCT_BUNDLE_IDENTIFIER = com.retriable.RetriableAFNetworking;
 				PRODUCT_NAME = RetriableAFNetworking;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -1731,7 +1731,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.emsihyo.RetriableAFNetworking;
+				PRODUCT_BUNDLE_IDENTIFIER = com.retriable.RetriableAFNetworking;
 				PRODUCT_NAME = RetriableAFNetworking;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -1758,7 +1758,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.emsihyo.RetriableAFNetworking;
+				PRODUCT_BUNDLE_IDENTIFIER = com.retriable.RetriableAFNetworking;
 				PRODUCT_NAME = RetriableAFNetworking;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
@@ -1787,7 +1787,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.emsihyo.RetriableAFNetworking;
+				PRODUCT_BUNDLE_IDENTIFIER = com.retriable.RetriableAFNetworking;
 				PRODUCT_NAME = RetriableAFNetworking;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
@@ -1815,7 +1815,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.emsihyo.RetriableAFNetworking;
+				PRODUCT_BUNDLE_IDENTIFIER = com.retriable.RetriableAFNetworking;
 				PRODUCT_NAME = RetriableAFNetworking;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
@@ -1843,7 +1843,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.emsihyo.RetriableAFNetworking;
+				PRODUCT_BUNDLE_IDENTIFIER = com.retriable.RetriableAFNetworking;
 				PRODUCT_NAME = RetriableAFNetworking;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
@@ -1874,7 +1874,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_BUNDLE_IDENTIFIER = com.emsihyo.RetriableAFNetworking;
+				PRODUCT_BUNDLE_IDENTIFIER = com.retriable.RetriableAFNetworking;
 				PRODUCT_NAME = RetriableAFNetworking;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
@@ -1903,7 +1903,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_BUNDLE_IDENTIFIER = com.emsihyo.RetriableAFNetworking;
+				PRODUCT_BUNDLE_IDENTIFIER = com.retriable.RetriableAFNetworking;
 				PRODUCT_NAME = RetriableAFNetworking;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
@@ -1927,7 +1927,7 @@
 				);
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.RetriableAFNetworking-iOS-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.retriable.RetriableAFNetworking-iOS-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1950,7 +1950,7 @@
 				);
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.RetriableAFNetworking-iOS-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.retriable.RetriableAFNetworking-iOS-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1972,7 +1972,7 @@
 				);
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.RetriableAFNetworking-tvOS-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.retriable.RetriableAFNetworking-tvOS-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
@@ -1996,7 +1996,7 @@
 				);
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.RetriableAFNetworking-tvOS-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.retriable.RetriableAFNetworking-tvOS-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
@@ -2023,7 +2023,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.RetriableAFNetworking-macOS-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.retriable.RetriableAFNetworking-macOS-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
@@ -2048,7 +2048,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.RetriableAFNetworking-macOS-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.retriable.RetriableAFNetworking-macOS-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
@@ -2069,7 +2069,7 @@
 				);
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.RetriableAFNetworkingTests-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.retriable.RetriableAFNetworkingTests-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -2090,7 +2090,7 @@
 				);
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.emsihyo.RetriableAFNetworkingTests-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.retriable.RetriableAFNetworkingTests-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
